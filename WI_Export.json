@@ -1,0 +1,3786 @@
+[
+  {
+    "Id": "ka0Tq000000yMDlIAM",
+    "Language": "en_US",
+    "Title": "Downgrade and Demotion within Hierarchy - Country Specifics",
+    "UrlName": "EN-US-20240906112015117",
+    "ArticleNumber": "000017058",
+    "L4_Process_Name__c": "Manage Demotion within Hierarchy",
+    "L4_Processes_Group__c": "Manage Employee Job Moves",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Promotion, Demotion, Upgrades, Manage, Within, Hierarchy, Salary Change, SuccessFactors, Employee Central, Reporting, Position, SFEC",
+    "ESD_Target_Team__c": "Employee Care;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000y43xIAA",
+    "Language": "en_US",
+    "Title": "Exit - Offboarding Activities   - Country Specifics",
+    "UrlName": "EN-US-20240826141609640",
+    "ArticleNumber": "000017032",
+    "L4_Process_Name__c": "Manage Offboarding Activities",
+    "L4_Processes_Group__c": "Manage Termination",
+    "Process__c": "Exit Management",
+    "Sub_Process__c": "Retirement;Contract End;Voluntary/Involuntary Exit",
+    "ESD_Article_Author_Name__c": "Rocio Balina",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Exit Reason, Exit Date, Position, Fixed Term Contract, No Show, SuccessFactors, Employee Central, Work Instruction",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000y3vtIAA",
+    "Language": "en_US",
+    "Title": "Exit - No Show - Country Specifics",
+    "UrlName": "EN-US-20240826141609639",
+    "ArticleNumber": "000017030",
+    "L4_Process_Name__c": "No Show",
+    "L4_Processes_Group__c": "Manage Termination",
+    "Process__c": "Exit Management",
+    "Sub_Process__c": "Voluntary/Involuntary Exit",
+    "ESD_Article_Author_Name__c": "Rocio Balina",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Exit Reason, Exit Date, Position, Fixed Term Contract, No Show, SuccessFactors, Employee Central, Work Instruction",
+    "ESD_Target_Team__c": "Local P&ED;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000y3mDIAQ",
+    "Language": "en_US",
+    "Title": "Exit - Death in Service - Country Specifics",
+    "UrlName": "EN-US-20240826141609637",
+    "ArticleNumber": "000017029",
+    "L4_Process_Name__c": "Death in Service",
+    "L4_Processes_Group__c": "Manage Termination",
+    "Process__c": "Exit Management",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Rocio Balina",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Exit Reason, Exit Date, Position, SuccessFactors, Employee Central, Work Instruction",
+    "ESD_Target_Team__c": "Employee Care;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000y3hNIAQ",
+    "Language": "en_US",
+    "Title": "Exit - Retirement - Country Specifics",
+    "UrlName": "EN-US-20240826141723581",
+    "ArticleNumber": "000017033",
+    "L4_Process_Name__c": "Retirement",
+    "L4_Processes_Group__c": "Manage Termination",
+    "Process__c": "Exit Management",
+    "Sub_Process__c": "Retirement",
+    "ESD_Article_Author_Name__c": "Rocio Balina",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Exit Reason, Exit Date, Position, Fixed Term Contract, No Show, SuccessFactors, Employee Central, Work Instruction",
+    "ESD_Target_Team__c": "P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000y3RFIAY",
+    "Language": "en_US",
+    "Title": "Exit - Involuntary - Country Specifics",
+    "UrlName": "EN-US-20240826141609636",
+    "ArticleNumber": "000017028",
+    "L4_Process_Name__c": "Involuntary Termination",
+    "L4_Processes_Group__c": "Manage Termination",
+    "Process__c": "Exit Management",
+    "Sub_Process__c": "Voluntary/Involuntary Exit",
+    "ESD_Article_Author_Name__c": "Rocio Balina",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Exit Reason, Exit Date, Position, Fixed Term Contract, No Show, SuccessFactors, Employee Central, Work Instruction",
+    "ESD_Target_Team__c": "Employee Care;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000y2q9IAA",
+    "Language": "en_US",
+    "Title": "Exit - Voluntary - Country Specifics",
+    "UrlName": "EN-US-20240826141609635",
+    "ArticleNumber": "000017031",
+    "L4_Process_Name__c": "Voluntary Termination",
+    "L4_Processes_Group__c": "Manage Termination",
+    "Process__c": "Exit Management",
+    "Sub_Process__c": "Voluntary/Involuntary Exit",
+    "ESD_Article_Author_Name__c": "Rocio Balina",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Exit Reason, Exit Date, Position, Fixed Term Contract, No Show, SuccessFactors, Employee Central, Work Instruction",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000xu4bIAA",
+    "Language": "en_US",
+    "Title": "Personal Data - Change - WI",
+    "UrlName": "EN-US-20240813153909664",
+    "ArticleNumber": "000016776",
+    "L4_Process_Name__c": "Personal Data Changes - Biographical Details & Gender;Personal Data Changes - Self Service",
+    "L4_Processes_Group__c": "Manage Employee Data",
+    "Process__c": "Employee Data & Changes",
+    "Sub_Process__c": "Personal Data Update",
+    "ESD_Article_Author_Name__c": "Kae Shelle Palma",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Personal Data Change, Data Changes, Personal Events, MyP&C, Employee Central",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000xuHVIAY",
+    "Language": "en_US",
+    "Title": "Personal Data - Change - Country Specifics Asia and LA&C",
+    "UrlName": "EN-US-20240904164522190",
+    "ArticleNumber": "000017045",
+    "L4_Process_Name__c": "Personal Data Changes - Biographical Details & Gender;Personal Data Changes - Self Service",
+    "L4_Processes_Group__c": "Manage Employee Data",
+    "Process__c": "Employee Data & Changes",
+    "Sub_Process__c": "Personal Data Update",
+    "ESD_Article_Author_Name__c": "Kae Shelle Palma",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Personal Data Change, Data Changes, Personal Events, MyP&C, Employee Central",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000xuFtIAI",
+    "Language": "en_US",
+    "Title": "Personal Data - Change - Country Specifics EU and EEMEA",
+    "UrlName": "EN-US-20250828100950602",
+    "ArticleNumber": "000023561",
+    "L4_Process_Name__c": "Personal Data Changes - Biographical Details & Gender;Personal Data Changes - Self Service",
+    "L4_Processes_Group__c": "Manage Employee Data",
+    "Process__c": "Employee Data & Changes",
+    "Sub_Process__c": "Personal Data Update",
+    "ESD_Article_Author_Name__c": "Kae Shelle Palma",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Personal Data Change, Data Changes, Personal Events, MyP&C, Employee Central",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000xO6LIAU",
+    "Language": "en_US",
+    "Title": "Bank Details - Change - Country Specifics",
+    "UrlName": "EN-US-20240904164522191",
+    "ArticleNumber": "000017044",
+    "L4_Process_Name__c": "Personal data Changes - Bank Details",
+    "L4_Processes_Group__c": "Manage Employee Data",
+    "Process__c": "Employee Data & Changes",
+    "Sub_Process__c": "Personal Data Update",
+    "ESD_Article_Author_Name__c": "Kae Shelle Palma",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Personal Data Change, Data Changes, Personal Events, MyP&C, Employee Central",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000x86PIAQ",
+    "Language": "en_US",
+    "Title": "Job Offer - WI",
+    "UrlName": "EN-US-20240228152835370",
+    "ArticleNumber": "000015508",
+    "L4_Process_Name__c": "Job Offer",
+    "L4_Processes_Group__c": "Manage Recruitment",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Recruitment, Job Offer, Assessment, Hire, SuccessFactors",
+    "ESD_Target_Team__c": "TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000weptIAA",
+    "Language": "en_US",
+    "Title": "Onboarding - Pre Day 1 (Prior to Hiring) - WI",
+    "UrlName": "EN-US-20240228152917595",
+    "ArticleNumber": "000015542",
+    "L4_Process_Name__c": "Execute Pre Day 1 Onboarding",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Pre Day1 Onboarding, Preboarding, Contract, SuccessFactors, SF Onboarding, SF ONB, SF RCM",
+    "ESD_Target_Team__c": "TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000wJlRIAU",
+    "Language": "en_US",
+    "Title": "Probation - Country Specifics",
+    "UrlName": "EN-US-2024022815284462",
+    "ArticleNumber": "000015515",
+    "L4_Process_Name__c": "Manage Probation",
+    "L4_Processes_Group__c": "Manage Employee Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Maria Paz Ruiz",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Probation, Extension, Termination, Involuntary, Successful Completion, SuccessFactors, Employee Central, Data Change, Document",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000wDT7IAM",
+    "Language": "en_US",
+    "Title": "Upgrade within Hierarchy - WI",
+    "UrlName": "EN-US-20240813154411151",
+    "ArticleNumber": "000016864",
+    "L4_Process_Name__c": "Manage Upgrades",
+    "L4_Processes_Group__c": "Manage Employee Job Moves",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Promotion, Demotion, Upgrades, Manage, Within, Hierarchy, Salary Change, SuccessFactors, Employee Central, Reporting, Position, SFEC",
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000w3YbIAI",
+    "Language": "en_US",
+    "Title": "Exit - Offboarding Activities   - WI",
+    "UrlName": "EN-US-2024081315463079",
+    "ArticleNumber": "000016881",
+    "L4_Process_Name__c": "Manage Offboarding Activities",
+    "L4_Processes_Group__c": "Manage Termination",
+    "Process__c": "Exit Management",
+    "Sub_Process__c": "Retirement;Contract End;Voluntary/Involuntary Exit",
+    "ESD_Article_Author_Name__c": "Rocio Balina",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Exit Reason, Exit Date, Position, Fixed Term Contract, No Show, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000vqZlIAI",
+    "Language": "en_US",
+    "Title": "Hiring - External - Transaction - WI",
+    "UrlName": "EN-US-20240813154025530",
+    "ArticleNumber": "000016825",
+    "L4_Process_Name__c": "Hire / Rehire External Candidate",
+    "L4_Processes_Group__c": "Hiring People",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Hiring",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Exit Reason, Exit Date, Position, Fixed Term Contract, No Show, SuccessFactors, Employee Central, SFEC, External Candidate, Hiring",
+    "ESD_Target_Team__c": "TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000vqczIAA",
+    "Language": "en_US",
+    "Title": "Hiring - External - Country Specifics - Asia",
+    "UrlName": "EN-US-20250528124059744",
+    "ArticleNumber": "000019880",
+    "L4_Process_Name__c": "Hire / Rehire External Candidate",
+    "L4_Processes_Group__c": "Hiring People",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Hiring",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000vl5RIAQ",
+    "Language": "en_US",
+    "Title": "Hiring - External - Country Specifics - EU",
+    "UrlName": "EN-US-20250528124329638",
+    "ArticleNumber": "000019881",
+    "L4_Process_Name__c": "Hire / Rehire External Candidate",
+    "L4_Processes_Group__c": "Hiring People",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Hiring",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Pre Day1 Onboarding, Preboarding, Contract, SuccessFactors, SF Onboarding, SF RCM",
+    "ESD_Target_Team__c": "TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000vlYTIAY",
+    "Language": "en_US",
+    "Title": "Hiring - External - Country Specifics - EEMEA",
+    "UrlName": "EN-US-2025080517214232",
+    "ArticleNumber": "000023478",
+    "L4_Process_Name__c": "Hire / Rehire External Candidate",
+    "L4_Processes_Group__c": "Hiring People",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Hiring",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000vl0bIAA",
+    "Language": "en_US",
+    "Title": "Onboarding - Day 1 and Onwards - Country Specifics",
+    "UrlName": "EN-US-20240228152921351",
+    "ArticleNumber": "000015545",
+    "L4_Process_Name__c": "Manage First Working Day;Manage Post Day 1 Onboarding",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Onboarding, Day 1 onboarding, Post Day 1 onboarding, new hire, SuccessFactors, SF Onboarding, SFEC",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000vkkUIAQ",
+    "Language": "en_US",
+    "Title": "Onboarding - Pre Day 1 (Post Hiring) - Country Specifics - Asia",
+    "UrlName": "EN-US-20250707173549216",
+    "ArticleNumber": "000023429",
+    "L4_Process_Name__c": "Execute Pre Day 1 Onboarding",
+    "L4_Processes_Group__c": null,
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000vkm5IAA",
+    "Language": "en_US",
+    "Title": "Onboarding - Pre Day 1 (Post Hiring) - Country Specifics - EEMEA",
+    "UrlName": "EN-US-2025070714164431",
+    "ArticleNumber": "000023427",
+    "L4_Process_Name__c": "Execute Pre Day 1 Onboarding",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000vkvlIAA",
+    "Language": "en_US",
+    "Title": "Onboarding - Pre Day 1 (Post Hiring) - Country Specifics - EU",
+    "UrlName": "EN-US-20250707125324514",
+    "ArticleNumber": "000023426",
+    "L4_Process_Name__c": "Execute Pre Day 1 Onboarding",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000vkanIAA",
+    "Language": "en_US",
+    "Title": "Onboarding - Pre Day 1 (Prior to Hiring) - Country Specifics - Asia (N-Z)",
+    "UrlName": "EN-US-20250805104120229",
+    "ArticleNumber": "000023477",
+    "L4_Process_Name__c": "Execute Pre Day 1 Onboarding",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Pre Day1 Onboarding, Preboarding, Contract, SuccessFactors, SF Onboarding, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000vjLNIAY",
+    "Language": "en_US",
+    "Title": "Onboarding - Pre Day 1 (Prior to Hiring) - Country Specifics - Asia (A-M)",
+    "UrlName": "EN-US-20250331125939829",
+    "ArticleNumber": "000019475",
+    "L4_Process_Name__c": "Execute Pre Day 1 Onboarding",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Pre Day1 Onboarding, Preboarding, Contract, SuccessFactors, SF Onboarding, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000vXgnIAE",
+    "Language": "en_US",
+    "Title": "Onboarding - Pre Day 1 (Prior to Hiring) - Country Specifics - EEMEA (M-Z)",
+    "UrlName": "EN-US-2025080115001585",
+    "ArticleNumber": "000023475",
+    "L4_Process_Name__c": null,
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Pre Day1 Onboarding, Preboarding, Contract, SuccessFactors, SF Onboarding, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000vXiPIAU",
+    "Language": "en_US",
+    "Title": "Onboarding - Pre Day 1 (Prior to Hiring) - Country Specifics - EEMEA (A-L)",
+    "UrlName": "EN-US-20240830195104162",
+    "ArticleNumber": "000017038",
+    "L4_Process_Name__c": "Execute Pre Day 1 Onboarding",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Pre-employment checks",
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Pre Day1 Onboarding, Preboarding, Contract, SuccessFactors, SF Onboarding, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000vW1ZIAU",
+    "Language": "en_US",
+    "Title": "Onboarding - Pre Day 1 (Prior to Hiring) - Country Specifics - EU (A-M)",
+    "UrlName": "EN-US-20240228152918852",
+    "ArticleNumber": "000015543",
+    "L4_Process_Name__c": "Execute Pre Day 1 Onboarding",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Pre Day1 Onboarding, Preboarding, Contract, SuccessFactors, SF Onboarding, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000vWhVIAU",
+    "Language": "en_US",
+    "Title": "Onboarding - Pre Day 1 (Prior to Hiring) - Country Specifics - EU (N-Z)",
+    "UrlName": "EN-US-20250801134215192",
+    "ArticleNumber": "000023474",
+    "L4_Process_Name__c": "Execute Pre Day 1 Onboarding",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Pre Day1 Onboarding, Preboarding, Contract, SuccessFactors, SF Onboarding, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000uuCPIAY",
+    "Language": "en_US",
+    "Title": "Reporting Line Change - Outside Hierarchy - WI",
+    "UrlName": "EN-US-20240813154244994",
+    "ArticleNumber": "000016844",
+    "L4_Process_Name__c": "Reporting Line Change",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Reporting Line, Job data, Changes, SuccessFactors, Employee Central, Documents, SFEC",
+    "ESD_Target_Team__c": "Employee Care;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000uu7ZIAQ",
+    "Language": "en_US",
+    "Title": "Reporting Line Change - Within Hierarchy - WI",
+    "UrlName": "EN-US-20240813154104649",
+    "ArticleNumber": "000016841",
+    "L4_Process_Name__c": "Reporting Line Change",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": "Org Management",
+    "Sub_Process__c": "Reporting Line Change",
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Reporting Line, Job data, Changes, SuccessFactors, Employee Central, Documents, SFEC",
+    "ESD_Target_Team__c": "Employee Care;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000uRqLIAU",
+    "Language": "en_US",
+    "Title": "Creation of a New Pay Component Foundation Object or Change to an Existing One - WI",
+    "UrlName": "EN-US-2025072109570622",
+    "ArticleNumber": "000023458",
+    "L4_Process_Name__c": "Other",
+    "L4_Processes_Group__c": "Manage Employee Compensation Data",
+    "Process__c": "Payroll",
+    "Sub_Process__c": "Payroll Processing",
+    "ESD_Article_Author_Name__c": "Joanna Gruszkos",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Cloud Support;Employee;IT Team;TRD - Compensation & Reporting",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000uLhhIAE",
+    "Language": "en_US",
+    "Title": "Job Offer - Country Specifics",
+    "UrlName": "EN-US-20240228152837706",
+    "ArticleNumber": "000015510",
+    "L4_Process_Name__c": "Job Offer",
+    "L4_Processes_Group__c": "Manage Recruitment",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Recruitment, Job Offer, Assessment, Hire, SuccessFactors",
+    "ESD_Target_Team__c": "TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000uGYLIA2",
+    "Language": "en_US",
+    "Title": "Position Title - Update (Deployed Markets) - WI",
+    "UrlName": "EN-US-20240813155322902",
+    "ArticleNumber": "000017005",
+    "L4_Process_Name__c": "Position Title Change",
+    "L4_Processes_Group__c": "Manage Position",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Jakub Pogorzelski",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Create Position, Update Position, Delimit Position, Vacant Position, Position Management, SuccessFactors Employee Central (SFEC)",
+    "ESD_Target_Team__c": "Employee Care;Job Analysis;Local P&ED",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000uKk1IAE",
+    "Language": "en_US",
+    "Title": "Vacant Position - Create - Initiated by Manager (Deployed Markets) - WI",
+    "UrlName": "EN-US-20240813155301326",
+    "ArticleNumber": "000016998",
+    "L4_Process_Name__c": "Create Position",
+    "L4_Processes_Group__c": "Manage Position",
+    "Process__c": "Org Management",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Jakub Pogorzelski",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Create Position, Update Position, Delimit Position, Vacant Position, Position Management, SuccessFactors Employee Central (SFEC)",
+    "ESD_Target_Team__c": "Employee Care;Job Analysis;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000uKs5IAE",
+    "Language": "en_US",
+    "Title": "Vacant position - Delimit (Deployed Markets) - WI",
+    "UrlName": "EN-US-20240813155322904",
+    "ArticleNumber": "000017006",
+    "L4_Process_Name__c": "Close Position (Vacant Positions)",
+    "L4_Processes_Group__c": "Manage Position",
+    "Process__c": "Org Management",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Jakub Pogorzelski",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Create Position, Update Position, Delimit Position, Vacant Position, Position Management, SuccessFactors Employee Central (SFEC)",
+    "ESD_Target_Team__c": "Employee Care;OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000uGlFIAU",
+    "Language": "en_US",
+    "Title": "Vacant Position - Update (Deployed Markets) - WI",
+    "UrlName": "EN-US-20240813155346652",
+    "ArticleNumber": "000017008",
+    "L4_Process_Name__c": "Update Position (Vacant Positions)",
+    "L4_Processes_Group__c": "Manage Position",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Jakub Pogorzelski",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Create Position, Update Position, Delimit Position, Vacant Position, Position Management, SuccessFactors Employee Central (SFEC)",
+    "ESD_Target_Team__c": "Employee Care;Job Analysis;Local P&ED",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000uGi1IAE",
+    "Language": "en_US",
+    "Title": "Vacant Position - Create - Offline requests, Home Position, LoA, Beneficiary, DPR (Deployed Markets) - WI",
+    "UrlName": "EN-US-20240813155301327",
+    "ArticleNumber": "000016994",
+    "L4_Process_Name__c": "Create Position",
+    "L4_Processes_Group__c": "Manage Position",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Jakub Pogorzelski",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Position Management, Create Position, Vacant Position, SuccessFactors, Employee Central, My P&C, LoA, Beneficiaries, Expat Home",
+    "ESD_Target_Team__c": "OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000uGEzIAM",
+    "Language": "en_US",
+    "Title": "Position Title Update and Vacant Position - Create & Update (Deployed Markets) - Country Specifics",
+    "UrlName": "EN-US-20240325152758230",
+    "ArticleNumber": "000016401",
+    "L4_Process_Name__c": "Create Position",
+    "L4_Processes_Group__c": "Manage Position",
+    "Process__c": "Org Management",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Jakub Pogorzelski",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Position Management, Create Position, Update Position, Delimit Position, Vacant Position, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Employee Care;Job Analysis;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000u4ovIAA",
+    "Language": "en_US",
+    "Title": "Time Accounts Creation - WI",
+    "UrlName": "EN-US-20250715141343174",
+    "ArticleNumber": "000023437",
+    "L4_Process_Name__c": "Other",
+    "L4_Processes_Group__c": "Manage Time Off",
+    "Process__c": "Time & Attendance",
+    "Sub_Process__c": "Quotas & Work Schedules",
+    "ESD_Article_Author_Name__c": "Karolina Olejnik-Koziol",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Ad-hoc Quota",
+    "ESD_Target_Team__c": "Employee;Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000u4H3IAI",
+    "Language": "en_US",
+    "Title": "Time Off - Additional System Instructions - WI",
+    "UrlName": "EN-US-2024081315472759",
+    "ArticleNumber": "000016891",
+    "L4_Process_Name__c": "Manage Short Term Absences (Manager Approval Required);Manage Long Term Leave;Monitor and Update Long Term Leave;Manage Return to Work from Long Term Leave;Manage Short Term Absences (No Manager Approval);Purchase of Leaves",
+    "L4_Processes_Group__c": "Manage Time Off",
+    "Process__c": "Time & Attendance",
+    "Sub_Process__c": "Attendance & Absence",
+    "ESD_Article_Author_Name__c": "Karolina Olejnik-Koziol",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000u3w5IAA",
+    "Language": "en_US",
+    "Title": "Long Term Leave - Request - WI",
+    "UrlName": "EN-US-2024081315472754",
+    "ArticleNumber": "000016886",
+    "L4_Process_Name__c": "Manage Long Term Leave",
+    "L4_Processes_Group__c": "Manage Time Off",
+    "Process__c": "Time & Attendance",
+    "Sub_Process__c": "Attendance & Absence",
+    "ESD_Article_Author_Name__c": "Karolina Olejnik-Koziol",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Time Off, Long Leave of Absence, Return from Leave of Absence, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tzajIAA",
+    "Language": "en_US",
+    "Title": "Bank Details - Change - WI",
+    "UrlName": "EN-US-20240813153909665",
+    "ArticleNumber": "000016777",
+    "L4_Process_Name__c": "Personal data Changes - Bank Details",
+    "L4_Processes_Group__c": "Manage Employee Data",
+    "Process__c": "Employee Data & Changes",
+    "Sub_Process__c": "Personal Data Update",
+    "ESD_Article_Author_Name__c": "Kae Shelle Palma",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Personal Data Change, Data Changes, Personal Events, MyP&C, Employee Central",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tz7hIAA",
+    "Language": "en_US",
+    "Title": "Upgrade within Hierarchy - Country Specifics",
+    "UrlName": "EN-US-20240906112015115",
+    "ArticleNumber": "000017056",
+    "L4_Process_Name__c": "Manage Upgrades",
+    "L4_Processes_Group__c": "Manage Employee Job Moves",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Promotion, Demotion, Upgrades, Manage, Within, Hierarchy, Salary Change, SuccessFactors, Employee Central, Reporting, Position, SFEC",
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tymjIAA",
+    "Language": "en_US",
+    "Title": "Promotion and Lateral Move within Hierarchy - WI",
+    "UrlName": "EN-US-20240813154449101",
+    "ArticleNumber": "000016867",
+    "L4_Process_Name__c": "Promotion within Hierarchy",
+    "L4_Processes_Group__c": "Manage Employee Job Moves",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Promotion, Demotion, Upgrades, Manage, Within, Hierarchy, Salary Change, SuccessFactors, Employee Central, Reporting, Position, SFEC",
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tz9JIAQ",
+    "Language": "en_US",
+    "Title": "Promotion and Lateral Move within Hierarchy - Country Specifics",
+    "UrlName": "EN-US-20240906112015116",
+    "ArticleNumber": "000017055",
+    "L4_Process_Name__c": "Promotion within Hierarchy",
+    "L4_Processes_Group__c": "Manage Employee Job Moves",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Promotion, Demotion, Upgrades, Manage, Within, Hierarchy, Salary Change, SuccessFactors, Employee Central, Reporting, Position, SFEC",
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tyRlIAI",
+    "Language": "en_US",
+    "Title": "Promotion and Lateral Move outside Hierarchy - WI",
+    "UrlName": "EN-US-20240813154449103",
+    "ArticleNumber": "000016866",
+    "L4_Process_Name__c": "Promotion outside Hierarchy;Lateral Moves outside Hierarchy",
+    "L4_Processes_Group__c": "Manage Employee Job Moves",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Employee Moves, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC",
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000u5HxIAI",
+    "Language": "en_US",
+    "Title": "Promotion / Lateral Move outside Hierarchy - Country Specifics",
+    "UrlName": "EN-US-20240906112015118",
+    "ArticleNumber": "000017054",
+    "L4_Process_Name__c": "Promotion outside Hierarchy;Lateral Moves outside Hierarchy",
+    "L4_Processes_Group__c": "Manage Employee Job Moves",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Employee Moves, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC",
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tyLJIAY",
+    "Language": "en_US",
+    "Title": "Reporting Line Change  - Offline Request - WI",
+    "UrlName": "EN-US-20240813154104650",
+    "ArticleNumber": "000016840",
+    "L4_Process_Name__c": "Reporting Line Change",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Reporting Line, Job data, Changes, SuccessFactors, Employee Central, Documents, SFEC",
+    "ESD_Target_Team__c": "Employee Care;OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000trTVIAY",
+    "Language": "en_US",
+    "Title": "Location - Change - WI",
+    "UrlName": "EN-US-20240813154826643",
+    "ArticleNumber": "000016894",
+    "L4_Process_Name__c": "Location Change",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Location, Change, Contract, Full Time, Part Time, Success Factors, Employee Central, Data, Data change",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000trV7IAI",
+    "Language": "en_US",
+    "Title": "Location  - Change - Country Specifics",
+    "UrlName": "EN-US-20240906143500368",
+    "ArticleNumber": "000017063",
+    "L4_Process_Name__c": "Location Change",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Location, Change, Contract, Full Time, Part Time, Success Factors, Employee Central, Data, Data change",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000bZDJIA2",
+    "Language": "en_US",
+    "Title": "Local Cost Center Change - WI",
+    "UrlName": "EN-US-20240813154104652",
+    "ArticleNumber": "000016843",
+    "L4_Process_Name__c": "Local Cost Center Change",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Local Cost Center, Job data, Changes, SuccessFactors, Employee Central, Documents, SFEC",
+    "ESD_Target_Team__c": "OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000trQHIAY",
+    "Language": "en_US",
+    "Title": "Local Cost Center Change - Country Specifics",
+    "UrlName": "EN-US-20240906143500373",
+    "ArticleNumber": "000017059",
+    "L4_Process_Name__c": "Local Cost Center Change",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Local Cost Center, Job data, Changes, SuccessFactors, Employee Central, Documents, SFEC",
+    "ESD_Target_Team__c": "Employee Care;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000trN3IAI",
+    "Language": "en_US",
+    "Title": "Full Time/Part Time Conversion - WI",
+    "UrlName": "EN-US-2024081315472762",
+    "ArticleNumber": "000016889",
+    "L4_Process_Name__c": "Full Time to Part Time Conversion",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Location, Change, Contract, Full Time, Part Time, Success Factors, Employee Central, Data, Data change",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000trOfIAI",
+    "Language": "en_US",
+    "Title": "Full Time/Part Time Conversion - Country Specifics",
+    "UrlName": "EN-US-20240906143500367",
+    "ArticleNumber": "000017066",
+    "L4_Process_Name__c": "Full Time to Part Time Conversion",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Location, Change, Contract, Full Time, Part Time, Success Factors, Employee Central, Data, Data change",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000trDNIAY",
+    "Language": "en_US",
+    "Title": "Fixed Term Contract - Extension - WI",
+    "UrlName": "EN-US-20240813154411149",
+    "ArticleNumber": "000016863",
+    "L4_Process_Name__c": "Extension of Fixed Term Contract",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Fixed term, Contract, Conversion, Extension, Job data, Changes, SuccessFactors, Employee Central, Documents, SFEC",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000trEzIAI",
+    "Language": "en_US",
+    "Title": "Fixed Term Contract - Extension - Country Specifics",
+    "UrlName": "EN-US-20240905170758133",
+    "ArticleNumber": "000017051",
+    "L4_Process_Name__c": "Extension of Fixed Term Contract",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Fixed term, Contract, Extension, Job data, Changes, SuccessFactors, Employee Central, Documents, SFEC",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tr0TIAQ",
+    "Language": "en_US",
+    "Title": "Fixed Term Contract - Conversion to Standard - WI",
+    "UrlName": "EN-US-20240813154411150",
+    "ArticleNumber": "000016862",
+    "L4_Process_Name__c": "Fixed Term To Standard Conversion",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Fixed term, Contract, Conversion, Job data, Changes, SuccessFactors, Employee Central, Documents, SFEC",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tr25IAA",
+    "Language": "en_US",
+    "Title": "Fixed Term Contract - Conversion to Standard - Country Specifics",
+    "UrlName": "EN-US-20240905170758134",
+    "ArticleNumber": "000017052",
+    "L4_Process_Name__c": "Fixed Term To Standard Conversion",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Fixed term, Contract, Job data, Changes, SuccessFactors, Employee Central, Documents, SFEC",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tqu1IAA",
+    "Language": "en_US",
+    "Title": "Employment Type / Work Arrangement / Contract Type - Change - Country Specifics",
+    "UrlName": "EN-US-20240906143500366",
+    "ArticleNumber": "000017062",
+    "L4_Process_Name__c": "Contract Type Change",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Location, Change, Contract, Full Time, Part Time, Success Factors, Employee Central, Data, Data change",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tqsPIAQ",
+    "Language": "en_US",
+    "Title": "Employment Type / Work Arrangement / Contract Type - Change - WI",
+    "UrlName": "EN-US-2024081315472761",
+    "ArticleNumber": "000016892",
+    "L4_Process_Name__c": "Contract Type Change",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Location, Change, Contract, Full Time, Part Time, Success Factors, Employee Central, Data, Data change",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tqNlIAI",
+    "Language": "en_US",
+    "Title": "Downgrade and Demotion within Hierarchy - WI",
+    "UrlName": "EN-US-20240813154449102",
+    "ArticleNumber": "000016865",
+    "L4_Process_Name__c": "Manage Demotion within Hierarchy",
+    "L4_Processes_Group__c": "Manage Employee Job Moves",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Promotion, Demotion, Upgrades, Manage, Within, Hierarchy, Salary Change, SuccessFactors, Employee Central, Reporting, Position, SFEC",
+    "ESD_Target_Team__c": "Employee Care;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tqnZIAQ",
+    "Language": "en_US",
+    "Title": "Demotion outside Hierarchy - Country Specifics",
+    "UrlName": "EN-US-20240906112015119",
+    "ArticleNumber": "000017057",
+    "L4_Process_Name__c": "Manage Demotion outside Hierarchy",
+    "L4_Processes_Group__c": "Manage Employee Job Moves",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Employee Moves, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC",
+    "ESD_Target_Team__c": "Employee Care;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tpzZIAQ",
+    "Language": "en_US",
+    "Title": "Demotion outside Hierarchy - WI",
+    "UrlName": "EN-US-20240813154523114",
+    "ArticleNumber": "000016873",
+    "L4_Process_Name__c": "Manage Demotion outside Hierarchy",
+    "L4_Processes_Group__c": "Manage Employee Job Moves",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Employee Moves, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC",
+    "ESD_Target_Team__c": "Employee Care;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tqlxIAA",
+    "Language": "en_US",
+    "Title": "Reporting Line Change - Country Specifics",
+    "UrlName": "EN-US-20240906143500369",
+    "ArticleNumber": "000017065",
+    "L4_Process_Name__c": "Reporting Line Change",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Reporting Line, Job data, Changes, SuccessFactors, Employee Central, Documents, SFEC",
+    "ESD_Target_Team__c": "Employee Care;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tl37IAA",
+    "Language": "en_US",
+    "Title": "Hiring - External - Post-Hiring Activities - WI",
+    "UrlName": "EN-US-20240813154025531",
+    "ArticleNumber": "000016822",
+    "L4_Process_Name__c": "Hire / Rehire External Candidate",
+    "L4_Processes_Group__c": "Hiring People",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Hiring",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "SuccessFactors, Employee Central, SFEC, External Candidate, Hiring",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tcz7IAA",
+    "Language": "en_US",
+    "Title": "Retroactive changes in MyP&C impacting payroll processing",
+    "UrlName": "EN-US-20250403130600158",
+    "ArticleNumber": "000019478",
+    "L4_Process_Name__c": "Other",
+    "L4_Processes_Group__c": "Manage Employee Compensation Data",
+    "Process__c": "Payroll",
+    "Sub_Process__c": "Payroll Processing",
+    "ESD_Article_Author_Name__c": "Anton Baykov",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;Local P&ED;TRD",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000td3xIAA",
+    "Language": "en_US",
+    "Title": "Deletions in MyP&C impacting payroll processing",
+    "UrlName": "EN-US-20250403121622181",
+    "ArticleNumber": "000019477",
+    "L4_Process_Name__c": "Other",
+    "L4_Processes_Group__c": "Manage Employee Compensation Data",
+    "Process__c": "Payroll",
+    "Sub_Process__c": "Payroll Processing",
+    "ESD_Article_Author_Name__c": "Anton Baykov",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;Local P&ED;TRD",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tbyDIAQ",
+    "Language": "en_US",
+    "Title": "Pay Components - Recurring - WI",
+    "UrlName": "EN-US-20250708164016483",
+    "ArticleNumber": "000023431",
+    "L4_Process_Name__c": "Other",
+    "L4_Processes_Group__c": "Manage Employee Compensation Data",
+    "Process__c": "Payroll",
+    "Sub_Process__c": "Payroll Processing",
+    "ESD_Article_Author_Name__c": "Anton Baykov",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;Line Manager;Local P&ED",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tb0XIAQ",
+    "Language": "en_US",
+    "Title": "Onboarding - Pre Day 1 (Post Hiring) - WI",
+    "UrlName": "EN-US-20240305161057271",
+    "ArticleNumber": "000015567",
+    "L4_Process_Name__c": "Execute Pre Day 1 Onboarding",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Pre Day1 Onboarding, Preboarding, Contract, SuccessFactors, SF Onboarding, SF RCM",
+    "ESD_Target_Team__c": "Local P&ED;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000tVZWIA2",
+    "Language": "en_US",
+    "Title": "Onboarding - Pre Day 1 (Post Hiring) - Country Specifics - LA&C",
+    "UrlName": "EN-US-20250707150238709",
+    "ArticleNumber": "000023428",
+    "L4_Process_Name__c": "Execute Pre Day 1 Onboarding",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000t8zRIAQ",
+    "Language": "en_US",
+    "Title": "Onboarding - Pre Day 1 (Prior to Hiring) - additional New Hire Tasks - WI",
+    "UrlName": "EN-US-20250703210220149",
+    "ArticleNumber": "000023423",
+    "L4_Process_Name__c": "Execute Pre Day 1 Onboarding",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Pre Day1 Onboarding, Preboarding, Contract, SuccessFactors, SF Onboarding, SF ONB, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000sjTBIAY",
+    "Language": "en_US",
+    "Title": "Hiring - External - Country Specifics - LA&C",
+    "UrlName": "EN-US-20240228152851367",
+    "ArticleNumber": "000015521",
+    "L4_Process_Name__c": "Hire / Rehire External Candidate",
+    "L4_Processes_Group__c": "Hiring People",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Hiring",
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000sis5IAA",
+    "Language": "en_US",
+    "Title": "Background Check - Country Specifics",
+    "UrlName": "EN-US-20240228152916168",
+    "ArticleNumber": "000015541",
+    "L4_Process_Name__c": "Background Checks",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Pre-employment checks",
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Background Checks, SuccessFactors, SF Recruitment , SF RCM",
+    "ESD_Target_Team__c": "TA Specialist (Recruiter);TAF;TAF - PES",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000siTtIAI",
+    "Language": "en_US",
+    "Title": "Background Check - WI",
+    "UrlName": "EN-US-20240228152914887",
+    "ArticleNumber": "000015540",
+    "L4_Process_Name__c": "Background Checks",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Pre-employment checks",
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Background Checks, SuccessFactors, SF Recruitment , SF RCM",
+    "ESD_Target_Team__c": "TA Specialist (Recruiter);TAF;TAF - PES",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000sgofIAA",
+    "Language": "en_US",
+    "Title": "Candidate Selection - Screening and Assessment - WI",
+    "UrlName": "EN-US-20240828175849869",
+    "ArticleNumber": "000017034",
+    "L4_Process_Name__c": "Screening & Assessment",
+    "L4_Processes_Group__c": "Manage Recruitment",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Interviews & assessments",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Recruitment, Candidate Selection, Application, Assessment, Screening, SuccessFactors",
+    "ESD_Target_Team__c": "TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000sgjpIAA",
+    "Language": "en_US",
+    "Title": "Candidate Selection - Interview - WI",
+    "UrlName": "EN-US-20240828183702667",
+    "ArticleNumber": "000017035",
+    "L4_Process_Name__c": "Interview",
+    "L4_Processes_Group__c": "Manage Recruitment",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Interviews & assessments",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Recruitment, Candidate Selection, Application, Assessment, Screening, SuccessFactors, Interviews",
+    "ESD_Target_Team__c": "TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000sfxRIAQ",
+    "Language": "en_US",
+    "Title": "Job Requisition - Create - Evergreen - WI",
+    "UrlName": "EN-US-20240913121844659",
+    "ArticleNumber": "000017070",
+    "L4_Process_Name__c": "Create Evergreen Job Requisition",
+    "L4_Processes_Group__c": "Manage Recruitment",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Job requisition",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Recruitment, Requisition, Standard Requisition, Evergreen Requisition, Early Careers Requisition, SuccessFactors, Templates",
+    "ESD_Target_Team__c": "TA Specialist (Recruiter);TAF;TAF - Dispatcher",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000sgS5IAI",
+    "Language": "en_US",
+    "Title": "Job Requisition - Create - Early Career - WI",
+    "UrlName": "EN-US-20240913121844658",
+    "ArticleNumber": "000017073",
+    "L4_Process_Name__c": "Create Early Careers Job Requisition",
+    "L4_Processes_Group__c": "Manage Recruitment",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Job requisition",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Recruitment, Requisition, Standard Requisition, Evergreen Requisition, Early Careers Requisition, SuccessFactors, Templates",
+    "ESD_Target_Team__c": "Hiring Manager;TA Specialist (Recruiter);TAF;TAF - Dispatcher",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000sgThIAI",
+    "Language": "en_US",
+    "Title": "Job Requisition - Create - Standard - WI",
+    "UrlName": "EN-US-20240913121844656",
+    "ArticleNumber": "000017069",
+    "L4_Process_Name__c": "Create Standard Job Requisition",
+    "L4_Processes_Group__c": "Manage Recruitment",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Job requisition",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Recruitment, Requisition, Standard Requisition, Evergreen Requisition, Early Careers Requisition, SuccessFactors, Templates",
+    "ESD_Target_Team__c": "Hiring Manager;TA Specialist (Recruiter);TAF;TAF - Dispatcher",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000sWEDIA2",
+    "Language": "en_US",
+    "Title": "Candidate Sourcing - WI",
+    "UrlName": "EN-US-2024022815283431",
+    "ArticleNumber": "000015507",
+    "L4_Process_Name__c": "Source Candidates",
+    "L4_Processes_Group__c": "Manage Recruitment",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Recruitment, Candidate Sourcing, Application, Screening, SuccessFactors, Phone",
+    "ESD_Target_Team__c": "Candidate Attraction;GTS;TA Specialist (Recruiter)",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000sJldIAE",
+    "Language": "en_US",
+    "Title": "Changes for Withdrawn Population or Effective before 1st of June for Strada Markets",
+    "UrlName": "EN-US-20250625113247745",
+    "ArticleNumber": "000023421",
+    "L4_Process_Name__c": "Other",
+    "L4_Processes_Group__c": "Other",
+    "Process__c": "Payroll",
+    "Sub_Process__c": "Payroll Processing",
+    "ESD_Article_Author_Name__c": "Joanna Gruszkos",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;Local P&ED",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000s1gfIAA",
+    "Language": "en_US",
+    "Title": "Candidate Selection - Country Specifics",
+    "UrlName": "EN-US-20240830165426213",
+    "ArticleNumber": "000017040",
+    "L4_Process_Name__c": "Screening & Assessment;Interview",
+    "L4_Processes_Group__c": "Manage Recruitment",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Interviews & assessments",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Recruitment, Candidate Selection, Application, Assessment, Screening, SuccessFactors, Interviews",
+    "ESD_Target_Team__c": "TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000rnvRIAQ",
+    "Language": "en_US",
+    "Title": "Internal Hires - Country Specifics",
+    "UrlName": "EN-US-20240228152908608",
+    "ArticleNumber": "000015535",
+    "L4_Process_Name__c": "Manage Internal Hires",
+    "L4_Processes_Group__c": "Manage Employee Job Moves",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Kamila Bozek-Puchala",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "SF Recruitment, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000rnk9IAA",
+    "Language": "en_US",
+    "Title": "Internal Hires - Manage - WI",
+    "UrlName": "EN-US-20240228152907191",
+    "ArticleNumber": "000015534",
+    "L4_Process_Name__c": "Manage Internal Hires",
+    "L4_Processes_Group__c": "Manage Employee Job Moves",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Kamila Bozek-Puchala",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "SF Recruitment, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000sw73IAA",
+    "Language": "en_US",
+    "Title": "Onboarding - Pre Day 1 (Prior to Hiring) - Country Specifics - LA&C",
+    "UrlName": "EN-US-2024083023335962",
+    "ArticleNumber": "000017041",
+    "L4_Process_Name__c": "Execute Pre Day 1 Onboarding",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Pre Day1 Onboarding, Preboarding, Contract, SuccessFactors, SF Onboarding, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000rdT3IAI",
+    "Language": "en_US",
+    "Title": "Job Requisition - Sync Position Update to Job Requisition - WI",
+    "UrlName": "EN-US-20250409135739262",
+    "ArticleNumber": "000019484",
+    "L4_Process_Name__c": "Create Standard Job Requisition;Create Evergreen Job Requisition;Create Early Careers Job Requisition",
+    "L4_Processes_Group__c": "Manage Recruitment",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Job requisition",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Recruitment, Requisition, Standard Requisition, Evergreen Requisition, Early Careers Requisition, SuccessFactors, Templates",
+    "ESD_Target_Team__c": "TA Specialist (Recruiter)",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000rdRRIAY",
+    "Language": "en_US",
+    "Title": "Job Requisition - Position Management - WI",
+    "UrlName": "EN-US-20250409141414138",
+    "ArticleNumber": "000019485",
+    "L4_Process_Name__c": "Create Standard Job Requisition;Create Evergreen Job Requisition;Create Early Careers Job Requisition",
+    "L4_Processes_Group__c": "Manage Recruitment",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Job requisition",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Recruitment, Requisition, Standard Requisition, Evergreen Requisition, Early Careers Requisition, SuccessFactors, Templates",
+    "ESD_Target_Team__c": "TA Specialist (Recruiter)",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000rdHlIAI",
+    "Language": "en_US",
+    "Title": "Job Requisition - Manage Parent & Child Requisition - WI",
+    "UrlName": "EN-US-20240913121844660",
+    "ArticleNumber": "000017074",
+    "L4_Process_Name__c": "Create Standard Job Requisition;Create Evergreen Job Requisition;Create Confidential Job Requisition;Create Early Careers Job Requisition",
+    "L4_Processes_Group__c": "Manage Recruitment",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Job requisition",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Recruitment, Requisition, Standard Requisition, Evergreen Requisition, Early Careers Requisition, SuccessFactors, Templates",
+    "ESD_Target_Team__c": "TA Specialist (Recruiter);TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000rU9dIAE",
+    "Language": "en_US",
+    "Title": "Job Requisition - Close - WI",
+    "UrlName": "EN-US-20240913121844661",
+    "ArticleNumber": "000017072",
+    "L4_Process_Name__c": "Create Standard Job Requisition;Create Evergreen Job Requisition;Create Early Careers Job Requisition",
+    "L4_Processes_Group__c": "Manage Recruitment",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Job requisition",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Recruitment, Requisition, Standard Requisition, Evergreen Requisition, Early Careers Requisition, SuccessFactors, Templates",
+    "ESD_Target_Team__c": "TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000rTyLIAU",
+    "Language": "en_US",
+    "Title": "Job Requisition - Cancel - WI",
+    "UrlName": "EN-US-20240913121844663",
+    "ArticleNumber": "000017071",
+    "L4_Process_Name__c": "Create Standard Job Requisition;Create Evergreen Job Requisition;Create Early Careers Job Requisition",
+    "L4_Processes_Group__c": "Manage Recruitment",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Job requisition",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Recruitment, Requisition, Standard Requisition, Evergreen Requisition, Early Careers Requisition, SuccessFactors, Templates",
+    "ESD_Target_Team__c": "TA Specialist (Recruiter)",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000q0GrIAI",
+    "Language": "en_US",
+    "Title": "Onboarding - Day 1 and Onwards - WI",
+    "UrlName": "EN-US-2024022815292096",
+    "ArticleNumber": "000015544",
+    "L4_Process_Name__c": "Manage First Working Day;Manage Post Day 1 Onboarding",
+    "L4_Processes_Group__c": "Onboarding",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Anna Dratwa",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Onboarding, Day 1 onboarding, Post Day 1 onboarding, new hire, SuccessFactors, SF Onboarding, SFEC",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000olwbIAA",
+    "Language": "en_US",
+    "Title": "Exit - End of Fixed Term Contract - Country Specifics",
+    "UrlName": "EN-US-20240826141609638",
+    "ArticleNumber": "000017027",
+    "L4_Process_Name__c": "End of Fixed Term Contract",
+    "L4_Processes_Group__c": "Manage Termination",
+    "Process__c": "Exit Management",
+    "Sub_Process__c": "Contract End",
+    "ESD_Article_Author_Name__c": "Rocio Balina",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Exit Reason, Exit Date, Position, Fixed Term Contract, No Show, SuccessFactors, Employee Central, Work Instruction",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000o8qPIAQ",
+    "Language": "en_US",
+    "Title": "MyDocs - WI",
+    "UrlName": "EN-US-20240228152922633",
+    "ArticleNumber": "000015546",
+    "L4_Process_Name__c": "Other",
+    "L4_Processes_Group__c": "Contacts & Channels",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Jakub Basista",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Document Generation, Templates, MyDocs, MyP&C, DocsBox, Personnel File, Personnel Folder, Contracts, Letters, Self Service, Document Type",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000nyflIAA",
+    "Language": "en_US",
+    "Title": "Data Subject Request - Employee and Former Employee - WI",
+    "UrlName": "EN-US-20240719124107997",
+    "ArticleNumber": "000016605",
+    "L4_Process_Name__c": "Other",
+    "L4_Processes_Group__c": "Data Privacy",
+    "Process__c": "Data Governance",
+    "Sub_Process__c": "Data Subject Request",
+    "ESD_Article_Author_Name__c": "Citlali Hernandez",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000nyizIAA",
+    "Language": "en_US",
+    "Title": "Data Subject Request - Candidate - WI",
+    "UrlName": "EN-US-20240718141503491",
+    "ArticleNumber": "000016604",
+    "L4_Process_Name__c": "Other",
+    "L4_Processes_Group__c": "Data Privacy",
+    "Process__c": "Data Governance",
+    "Sub_Process__c": "Data Subject Request",
+    "ESD_Article_Author_Name__c": "Citlali Hernandez",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000nYWnIAM",
+    "Language": "en_US",
+    "Title": "Benefits - Manage Retirees with Pay and Benefit Recipients - WI",
+    "UrlName": "EN-US-20250513103136510",
+    "ArticleNumber": "000019590",
+    "L4_Process_Name__c": "Other",
+    "L4_Processes_Group__c": "Benefits",
+    "Process__c": "Total Rewards",
+    "Sub_Process__c": "Benefits Administration",
+    "ESD_Article_Author_Name__c": "Jameson Mase",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee;Employee Care;Line Manager;Local P&ED;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000nYJtIAM",
+    "Language": "en_US",
+    "Title": "Benefits - Manage Retirees with Pay and Benefit Recipients - Country Specifics",
+    "UrlName": "EN-US-20250513114227322",
+    "ArticleNumber": "000019591",
+    "L4_Process_Name__c": "Other",
+    "L4_Processes_Group__c": "Benefits",
+    "Process__c": "Total Rewards",
+    "Sub_Process__c": "Benefits Administration",
+    "ESD_Article_Author_Name__c": "Jameson Mase",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee;Employee Care;Line Manager;Local P&ED;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000q0jtIAA",
+    "Language": "en_US",
+    "Title": "STRADA Local Forms - WI",
+    "UrlName": "EN-US-20250509171048398",
+    "ArticleNumber": "000019587",
+    "L4_Process_Name__c": "Manage Long Term Leave;Manage Short Term Absences (No Manager Approval)",
+    "L4_Processes_Group__c": "Manage Time Off",
+    "Process__c": "Time & Attendance",
+    "Sub_Process__c": "Attendance & Absence;Quotas & Work Schedules",
+    "ESD_Article_Author_Name__c": "Magdalena Barras",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000mssXIAQ",
+    "Language": "en_US",
+    "Title": "Mass Upload of Employee Data",
+    "UrlName": "EN-US-2025010314450597",
+    "ArticleNumber": "000018258",
+    "L4_Process_Name__c": "Other",
+    "L4_Processes_Group__c": "Other",
+    "Process__c": "Other",
+    "Sub_Process__c": "Other",
+    "ESD_Article_Author_Name__c": "Monika Lasek",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000lOGbIAM",
+    "Language": "en_US",
+    "Title": "Exit - No Show - WI",
+    "UrlName": "EN-US-2024081315463078",
+    "ArticleNumber": "000016882",
+    "L4_Process_Name__c": "No Show",
+    "L4_Processes_Group__c": "Manage Termination",
+    "Process__c": "Exit Management",
+    "Sub_Process__c": "Voluntary/Involuntary Exit",
+    "ESD_Article_Author_Name__c": "Rocio Balina",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Exit Reason, Exit Date, Position, Fixed Term Contract, No Show, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Local P&ED;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000kBIDIA2",
+    "Language": "en_US",
+    "Title": "Department Name - Update - WI",
+    "UrlName": "EN-US-20240813155215349",
+    "ArticleNumber": "000016968",
+    "L4_Process_Name__c": "Manage Org Structures - Department Label",
+    "L4_Processes_Group__c": "Manage Foundational Objects",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Cloud Support;Employee Care;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000kD8jIAE",
+    "Language": "en_US",
+    "Title": "Department Name - Update - Country Specifics",
+    "UrlName": "EN-US-20250410144244266",
+    "ArticleNumber": "000019488",
+    "L4_Process_Name__c": "Manage Org Structures - Department Label",
+    "L4_Processes_Group__c": "Manage Foundational Objects",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": null,
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": null,
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000kB5JIAU",
+    "Language": "en_US",
+    "Title": "Affiliate - Update - WI",
+    "UrlName": "EN-US-20240813155131286",
+    "ArticleNumber": "000016963",
+    "L4_Process_Name__c": "Manage Org Structures - Update Affiliate",
+    "L4_Processes_Group__c": "Manage Foundational Objects",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Foundation Objects, Affiliate, Location, Department, Department Name, Job Code, SMDL, Finance, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Cloud Support;Finance;Local P&ED",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000kBA9IAM",
+    "Language": "en_US",
+    "Title": "Affiliate - Update - Country Specifics",
+    "UrlName": "EN-US-20250410130535247",
+    "ArticleNumber": "000019487",
+    "L4_Process_Name__c": "Manage Org Structures - Update Affiliate",
+    "L4_Processes_Group__c": null,
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": null,
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000jNRtIAM",
+    "Language": "en_US",
+    "Title": "Bank Details - Change - Additional verification -WI",
+    "UrlName": "EN-US-20250403162513569",
+    "ArticleNumber": "000019479",
+    "L4_Process_Name__c": "Personal data Changes - Bank Details;Personal Data Changes - Self Service",
+    "L4_Processes_Group__c": "Manage Employee Data",
+    "Process__c": "Employee Data & Changes",
+    "Sub_Process__c": "Personal Data Update",
+    "ESD_Article_Author_Name__c": "Jakub Pogorzelski",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "identity verification, offline request, bank details change",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000gKjtIAE",
+    "Language": "en_US",
+    "Title": "Benefits - Manage - WI",
+    "UrlName": "EN-US-20250311165555417",
+    "ArticleNumber": "000019459",
+    "L4_Process_Name__c": "Other",
+    "L4_Processes_Group__c": "Benefits",
+    "Process__c": "Total Rewards",
+    "Sub_Process__c": "Benefits Administration",
+    "ESD_Article_Author_Name__c": "Jameson Mase",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000fJ57IAE",
+    "Language": "en_US",
+    "Title": "Benefits - Manage - Country Specifics",
+    "UrlName": "EN-US-20250313202855539",
+    "ArticleNumber": "000019462",
+    "L4_Process_Name__c": null,
+    "L4_Processes_Group__c": "Benefits",
+    "Process__c": "Total Rewards",
+    "Sub_Process__c": "Benefits Administration",
+    "ESD_Article_Author_Name__c": "Jameson Mase",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000eJQXIA2",
+    "Language": "en_US",
+    "Title": "MyDocs - Country Specifics",
+    "UrlName": "EN-US-20240228152923643",
+    "ArticleNumber": "000015547",
+    "L4_Process_Name__c": "Other",
+    "L4_Processes_Group__c": "Contacts & Channels",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Jakub Basista",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Document Generation, Templates, MyDocs, MyP&C, DocsBox, Personnel File, Personnel Folder, Contracts, Letters, Self Service, Document Type",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000eBUbIAM",
+    "Language": "en_US",
+    "Title": "Exit - Involuntary - WI",
+    "UrlName": "EN-US-20240813154523116",
+    "ArticleNumber": "000016874",
+    "L4_Process_Name__c": "Involuntary Termination",
+    "L4_Processes_Group__c": "Manage Termination",
+    "Process__c": "Exit Management",
+    "Sub_Process__c": "Voluntary/Involuntary Exit",
+    "ESD_Article_Author_Name__c": "Rocio Balina",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Exit Reason, Exit Date, Position, Fixed Term Contract, No Show, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Employee Care;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000eBPlIAM",
+    "Language": "en_US",
+    "Title": "Exit - End of Fixed-Term Contract - WI",
+    "UrlName": "EN-US-20240813154551748",
+    "ArticleNumber": "000016877",
+    "L4_Process_Name__c": "End of Fixed Term Contract",
+    "L4_Processes_Group__c": "Manage Termination",
+    "Process__c": "Exit Management",
+    "Sub_Process__c": "Contract End",
+    "ESD_Article_Author_Name__c": "Rocio Balina",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Exit Reason, Exit Date, Position, Fixed Term Contract, No Show, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000dqbRIAQ",
+    "Language": "en_US",
+    "Title": "Hiring - Confidential - Transaction - WI",
+    "UrlName": "EN-US-20240813154025532",
+    "ArticleNumber": "000016823",
+    "L4_Process_Name__c": "Hire / Rehire External Candidate",
+    "L4_Processes_Group__c": "Hiring People",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Hiring",
+    "ESD_Article_Author_Name__c": "Kamila Bozek-Puchala",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "SF Recruitment, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC, SF RCM",
+    "ESD_Target_Team__c": "Executive Hiring;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000dqd3IAA",
+    "Language": "en_US",
+    "Title": "Hiring - Confidential - Country Specifics",
+    "UrlName": "EN-US-20240228152853973",
+    "ArticleNumber": "000015523",
+    "L4_Process_Name__c": "Hire / Rehire External Candidate",
+    "L4_Processes_Group__c": "Hiring People",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Hiring",
+    "ESD_Article_Author_Name__c": "Kamila Bozek-Puchala",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "SF Recruitment, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;Executive Hiring;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000dH4DIAU",
+    "Language": "en_US",
+    "Title": "Affiliate - Delimit - WI",
+    "UrlName": "EN-US-20240813155215347",
+    "ArticleNumber": "000016967",
+    "L4_Process_Name__c": "Manage Org Structures - Delimit Affiliate",
+    "L4_Processes_Group__c": "Manage Foundational Objects",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Foundation Objects, Affiliate, Location, Department, Department Name, Job Code, SMDL, Finance, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Employee Care;OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000kGGHIA2",
+    "Language": "en_US",
+    "Title": "Affiliate - Create - WI",
+    "UrlName": "EN-US-20240813155215350",
+    "ArticleNumber": "000016965",
+    "L4_Process_Name__c": "Manage Org Structures - Create Affiliate",
+    "L4_Processes_Group__c": "Manage Foundational Objects",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Foundation Objects, Affiliate, Location, Department, Department Name, Job Code, SMDL, Finance, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Cloud Support;Employee Care;OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000dE9ZIAU",
+    "Language": "en_US",
+    "Title": "Pay Components - One-Time - WI",
+    "UrlName": "EN-US-20250221100625895",
+    "ArticleNumber": "000018342",
+    "L4_Process_Name__c": "Perform and Manage One Time Payments;Recognition Awards;IC & Stock",
+    "L4_Processes_Group__c": "Manage Employee Compensation Data",
+    "Process__c": "Payroll",
+    "Sub_Process__c": "Payroll Processing",
+    "ESD_Article_Author_Name__c": "Anton Baykov",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care;Global Mobility",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000cnkTIAQ",
+    "Language": "en_US",
+    "Title": "Office Location - Update - WI",
+    "UrlName": "EN-US-20240813155131289",
+    "ArticleNumber": "000016962",
+    "L4_Process_Name__c": "Manage Org Structures - Update Location",
+    "L4_Processes_Group__c": "Manage Foundational Objects",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Foundation Objects, Affiliate, Location, Department, Department Name, Job Code, SMDL, Finance, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000cgmDIAQ",
+    "Language": "en_US",
+    "Title": "Office Location - Create - WI",
+    "UrlName": "EN-US-20240813155131288",
+    "ArticleNumber": "000016961",
+    "L4_Process_Name__c": "Manage Org Structures - Create Location",
+    "L4_Processes_Group__c": "Manage Foundational Objects",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Foundation Objects, Affiliate, Location, Department, Department Name, Job Code, SMDL, Finance, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Cloud Support;Employee Care;Local P&ED;OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000cnirIAA",
+    "Language": "en_US",
+    "Title": "Office Location - Delimit - WI",
+    "UrlName": "EN-US-20240813155215348",
+    "ArticleNumber": "000016966",
+    "L4_Process_Name__c": "Manage Org Structures - Delimit Location",
+    "L4_Processes_Group__c": "Manage Foundational Objects",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Foundation Objects, Affiliate, Location, Department, Department Name, Job Code, SMDL, Finance, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000ckkzIAA",
+    "Language": "en_US",
+    "Title": "Managerial Flag - Update (Deployed Markets) - WI",
+    "UrlName": "EN-US-20240813155322903",
+    "ArticleNumber": "000017007",
+    "L4_Process_Name__c": "Is-Manger Flag Update",
+    "L4_Processes_Group__c": "Manage Position",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Managerial Flag, Manager Flag, Occupied Position, Position Management, My P&C ",
+    "ESD_Target_Team__c": "OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000eBxdIAE",
+    "Language": "en_US",
+    "Title": "Managerial Flag - Update (Deployed Markets) - Country Specifics",
+    "UrlName": "EN-US-2024032717074853",
+    "ArticleNumber": "000016411",
+    "L4_Process_Name__c": "Position Title Change;Is-Manger Flag Update",
+    "L4_Processes_Group__c": "Manage Position",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Position Title, COR Code, Specialty Code, NCPD Code, Managerial Flag, Manager Flag, Occupied Position, Position Management, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Employee Care;Job Analysis;Local P&ED;OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000c9OrIAI",
+    "Language": "en_US",
+    "Title": "Working Pattern - Temporary Change to Work Schedule - WI",
+    "UrlName": "EN-US-20240813154701492",
+    "ArticleNumber": "000016884",
+    "L4_Process_Name__c": "Managing Temporary Work Schedule Changes",
+    "L4_Processes_Group__c": "Manage Working Patterns",
+    "Process__c": "Time & Attendance",
+    "Sub_Process__c": "Quotas & Work Schedules",
+    "ESD_Article_Author_Name__c": "Karolina Olejnik-Koziol",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000c977IAA",
+    "Language": "en_US",
+    "Title": "Long Term Leave - Extend, Rejoin, Resign (steps for LM only) - WI",
+    "UrlName": "EN-US-2024081315472756",
+    "ArticleNumber": "000016888",
+    "L4_Process_Name__c": "Monitor and Update Long Term Leave",
+    "L4_Processes_Group__c": "Manage Time Off",
+    "Process__c": "Time & Attendance",
+    "Sub_Process__c": "Attendance & Absence",
+    "ESD_Article_Author_Name__c": "Karolina Olejnik-Koziol",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Time Off, Long Leave of Absence, Return from Leave of Absence, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Line Manager",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000cGGfIAM",
+    "Language": "en_US",
+    "Title": "Long Term Leave - Return to Work - WI",
+    "UrlName": "EN-US-2024081315472757",
+    "ArticleNumber": "000016887",
+    "L4_Process_Name__c": "Manage Return to Work from Long Term Leave",
+    "L4_Processes_Group__c": "Manage Time Off",
+    "Process__c": "Time & Attendance",
+    "Sub_Process__c": "Attendance & Absence",
+    "ESD_Article_Author_Name__c": "Karolina Olejnik-Koziol",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Time Off, Long Leave of Absence, Return from Leave of Absence, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Employee Care;Local P&ED;OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000c8RBIAY",
+    "Language": "en_US",
+    "Title": "Short Term Leave - WI",
+    "UrlName": "EN-US-2024081315472752",
+    "ArticleNumber": "000016893",
+    "L4_Process_Name__c": "Manage Short Term Absences (Manager Approval Required);Manage Short Term Absences (No Manager Approval)",
+    "L4_Processes_Group__c": "Manage Time Off",
+    "Process__c": "Time & Attendance",
+    "Sub_Process__c": "Attendance & Absence",
+    "ESD_Article_Author_Name__c": "Karolina Olejnik-Koziol",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000bZbVIAU",
+    "Language": "en_US",
+    "Title": "Local Cost Center Change and Alternative Cost Center Change - Offline Request - WI",
+    "UrlName": "EN-US-20240813154244995",
+    "ArticleNumber": "000016845",
+    "L4_Process_Name__c": "Local Cost Center Change",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Local Cost Center, Job data, Changes, SuccessFactors, Employee Central, Documents, SFEC",
+    "ESD_Target_Team__c": "Employee Care;OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000bZtFIAU",
+    "Language": "en_US",
+    "Title": "Local Cost Center Change and Alternative Cost Center Change - Offline Request - Country Specifics",
+    "UrlName": "EN-US-20250207142943849",
+    "ArticleNumber": "000018280",
+    "L4_Process_Name__c": "Local Cost Center Change",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Local Cost Center, Job data, Changes, SuccessFactors, Employee Central, Documents, SFEC",
+    "ESD_Target_Team__c": "Employee Care;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000ZjIPIA0",
+    "Language": "en_US",
+    "Title": "Global Assignment - End - WI",
+    "UrlName": "EN-US-20240813153909663",
+    "ArticleNumber": "000016778",
+    "L4_Process_Name__c": "End Global Assignment",
+    "L4_Processes_Group__c": "Manage Global Assignments",
+    "Process__c": "Global Mobility",
+    "Sub_Process__c": "Short-Term Assignment;Long-Term Assignment;Repatriation;Assignment support",
+    "ESD_Article_Author_Name__c": "Piotr Nowak",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "SF Recruitment, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000ZjGnIAK",
+    "Language": "en_US",
+    "Title": "Global Assignment - End - Country Specifics",
+    "UrlName": "EN-US-20250122151106771",
+    "ArticleNumber": "000018272",
+    "L4_Process_Name__c": "Start Global Assignment;Extend Global Assignment;End Global Assignment",
+    "L4_Processes_Group__c": "Manage Global Assignments",
+    "Process__c": "Global Mobility",
+    "Sub_Process__c": "Short-Term Assignment;Long-Term Assignment;Repatriation;Assignment support",
+    "ESD_Article_Author_Name__c": "Piotr Nowak",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "SF Recruitment, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000ZjFBIA0",
+    "Language": "en_US",
+    "Title": "Global Assignment - Start - WI",
+    "UrlName": "EN-US-20240906132753633",
+    "ArticleNumber": "000017053",
+    "L4_Process_Name__c": "Start Global Assignment",
+    "L4_Processes_Group__c": "Manage Global Assignments",
+    "Process__c": "Global Mobility",
+    "Sub_Process__c": "Short-Term Assignment;Long-Term Assignment;Assignment support",
+    "ESD_Article_Author_Name__c": "Piotr Nowak",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "SF Recruitment, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC, SF RCM",
+    "ESD_Target_Team__c": "Global Mobility;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000ZicTIAS",
+    "Language": "en_US",
+    "Title": "Global Assignment - Start - Country Specifics",
+    "UrlName": "EN-US-20250122133534900",
+    "ArticleNumber": "000018271",
+    "L4_Process_Name__c": "Start Global Assignment;Extend Global Assignment;End Global Assignment",
+    "L4_Processes_Group__c": "Manage Global Assignments",
+    "Process__c": "Global Mobility",
+    "Sub_Process__c": "Short-Term Assignment;Long-Term Assignment;Repatriation;Assignment support",
+    "ESD_Article_Author_Name__c": "Piotr Nowak",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "SF Recruitment, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000ZH1BIAW",
+    "Language": "en_US",
+    "Title": "Populations of Pay Scale, Non-PMI Grade and PMI Grade MRP - WI",
+    "UrlName": "EN-US-20250117101108467",
+    "ArticleNumber": "000018264",
+    "L4_Process_Name__c": "Extension of Fixed Term Contract;Fixed Term To Standard Conversion;Contract Type Change;Full Time to Part Time Conversion;Location Change;Local Cost Center Change;Reporting Line Change;Manage Upgrades;Promotion within Hierarchy;Manage Demotion within Hierarchy;Promotion outside Hierarchy;Lateral Moves outside Hierarchy;Manage Demotion outside Hierarchy;Manage Internal Hires;End of Fixed Term Contract",
+    "L4_Processes_Group__c": "Manage Employee Data",
+    "Process__c": "Employee Data & Changes",
+    "Sub_Process__c": "Position/Compensation/Contract Change/LoA",
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care;Line Manager;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000ZHh7IAG",
+    "Language": "en_US",
+    "Title": "Populations of Pay Scale, Non-PMI Grade and PMI Grade MRP - Country Specifics",
+    "UrlName": "EN-US-20250117114258248",
+    "ArticleNumber": "000018265",
+    "L4_Process_Name__c": "Extension of Fixed Term Contract;Fixed Term To Standard Conversion;Contract Type Change;Full Time to Part Time Conversion;Location Change;Local Cost Center Change;Reporting Line Change;Manage Upgrades;Promotion within Hierarchy;Manage Demotion within Hierarchy;Promotion outside Hierarchy;Lateral Moves outside Hierarchy;Manage Demotion outside Hierarchy;Manage Internal Hires;End of Fixed Term Contract",
+    "L4_Processes_Group__c": "Manage Employee Data",
+    "Process__c": "Employee Data & Changes",
+    "Sub_Process__c": "Position/Compensation/Contract Change/LoA",
+    "ESD_Article_Author_Name__c": "Oliwia Gajewska",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care;Line Manager;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000UuJJIA0",
+    "Language": "en_US",
+    "Title": "Exit - Voluntary - WI",
+    "UrlName": "EN-US-20240813154523115",
+    "ArticleNumber": "000016872",
+    "L4_Process_Name__c": "Voluntary Termination",
+    "L4_Processes_Group__c": "Manage Termination",
+    "Process__c": "Exit Management",
+    "Sub_Process__c": "Voluntary/Involuntary Exit",
+    "ESD_Article_Author_Name__c": "Rocio Balina",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Exit Reason, Exit Date, Position, Fixed Term Contract, No Show, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000WJp7IAG",
+    "Language": "en_US",
+    "Title": "Job Requisition - Country Specifics",
+    "UrlName": "EN-US-20240820135155925",
+    "ArticleNumber": "000017010",
+    "L4_Process_Name__c": "Create Standard Job Requisition;Create Evergreen Job Requisition;Create Confidential Job Requisition;Create Early Careers Job Requisition",
+    "L4_Processes_Group__c": "Manage Recruitment",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Job requisition",
+    "ESD_Article_Author_Name__c": "Joelyn Taneo",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Recruitment, Requisition, Standard Requisition, Evergreen Requisition, Early Careers Requisition, SuccessFactors, Templates",
+    "ESD_Target_Team__c": "P&C BP;TA Specialist (Recruiter);TAF;TAF - Dispatcher",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000TfMLIA0",
+    "Language": "en_US",
+    "Title": "Merit - WI",
+    "UrlName": "EN-US-20240305175140952",
+    "ArticleNumber": "000015568",
+    "L4_Process_Name__c": "Merit Increase",
+    "L4_Processes_Group__c": "Manage Employee Compensation Data",
+    "Process__c": "Total Rewards",
+    "Sub_Process__c": "Merit Cycle",
+    "ESD_Article_Author_Name__c": "Daniela Ilie",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Annual Merit Increase, SuccessFactors Employee Central (SFEC), Document Management System (for Compensation Statements), iCare Ticketing System, MyPMI",
+    "ESD_Target_Team__c": "Employee Care;TRD - Central",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000TezlIAC",
+    "Language": "en_US",
+    "Title": "Individual Salary Adjustment - Perform and Manage - WI",
+    "UrlName": "EN-US-20240813155131283",
+    "ArticleNumber": "000016964",
+    "L4_Process_Name__c": "Perform Offcycle Compensation Change - Planned",
+    "L4_Processes_Group__c": "Manage Employee Compensation Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Sabino Antonio Diaz",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Individual Salary Adjustment, SFEC, iCare Ticketing System, ISAC",
+    "ESD_Target_Team__c": "Employee Care;TRD - Central",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000TeenIAC",
+    "Language": "en_US",
+    "Title": "Individual Salary Adjustment - Form Launch - WI",
+    "UrlName": "EN-US-20240813155038998",
+    "ArticleNumber": "000016951",
+    "L4_Process_Name__c": "Perform Offcycle Compensation Change - Planned",
+    "L4_Processes_Group__c": "Manage Employee Compensation Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Sabino Antonio Diaz",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Individual Salary Adjustment, SFEC, iCare Ticketing System, ISAC",
+    "ESD_Target_Team__c": "BAU Support;Employee Care;TRD - Central",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000TcRhIAK",
+    "Language": "en_US",
+    "Title": "Pay Structure Foundation Objects V4 - Update - WI",
+    "UrlName": "EN-US-20240305140914615",
+    "ArticleNumber": "000015564",
+    "L4_Process_Name__c": "Updating Pay Structure Foundation Objects",
+    "L4_Processes_Group__c": "Manage Pay Structure Foundational Objects",
+    "Process__c": "Total Rewards",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Daniela Ilie",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Pay Structure, Pay Range, SuccessFactors Employee Central (SFEC), Updating Pay Structure Foundation Objects V4",
+    "ESD_Target_Team__c": "Cloud Support;TRD;TRD - Compensation & Reporting",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000TeWjIAK",
+    "Language": "en_US",
+    "Title": "Pay Structure Foundation Objects (with UAT V4) - Create / Deactivate - WI",
+    "UrlName": "EN-US-20240228153553883",
+    "ArticleNumber": "000015552",
+    "L4_Process_Name__c": "Creating / Deactivating Pay Structure Foundation Objects",
+    "L4_Processes_Group__c": "Manage Pay Structure Foundational Objects",
+    "Process__c": "Total Rewards",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Daniela Ilie",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Pay Structure, Pay Range, SuccessFactors Employee Central (SFEC), Creating/Deactivating Pay Structure Foundation Objects - with UAT v4 ",
+    "ESD_Target_Team__c": "Cloud Support;TRD",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000Pxg1IAC",
+    "Language": "en_US",
+    "Title": "Language I/O Case Translation - WI",
+    "UrlName": "EN-US-20241016150949785",
+    "ArticleNumber": "000017139",
+    "L4_Process_Name__c": "Case Management",
+    "L4_Processes_Group__c": "Contacts & Channels",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Magdalena Barras",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "iCare, Case, Case Management, Case translation",
+    "ESD_Target_Team__c": "CCP;Cloud Support;Employee Care;Global Mobility;Job Analysis;Local P&ED;OM;Onboarding Specialist;TAF;TRD",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000PeofIAC",
+    "Language": "en_US",
+    "Title": "Reports in SF for Employee Care and Payroll - WI",
+    "UrlName": "EN-US-20241010132426179",
+    "ArticleNumber": "000017115",
+    "L4_Process_Name__c": "Other",
+    "L4_Processes_Group__c": "Other",
+    "Process__c": "Reporting & Insights",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Justyna Nowak",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Report, SFEC",
+    "ESD_Target_Team__c": "Employee Care;Finance;Local P&ED",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000NqVlIAK",
+    "Language": "en_US",
+    "Title": "Hiring - Interim Scenario - WI",
+    "UrlName": "EN-US-20240924155348909",
+    "ArticleNumber": "000017089",
+    "L4_Process_Name__c": "Hire / Rehire External Candidate;Mass Hire directly to EC",
+    "L4_Processes_Group__c": "Hiring People",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Hiring",
+    "ESD_Article_Author_Name__c": "Natalie Heyns",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Hiring, Interim State, HR2U",
+    "ESD_Target_Team__c": "Employee Care;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MyFFIA0",
+    "Language": "en_US",
+    "Title": "Individual Salary Adjustment Cycle for Salary Grades 10 to 16 - Work Instruction - Global (Non-Pilot Markets)",
+    "UrlName": "EN-US-INDIVIDUAL-SALARY-ADJUSTMENT-CYCLE-FOR-SALARY-GRADES-10-TO-16---GLOBAL-OPM-20230906",
+    "ArticleNumber": "000014992",
+    "L4_Process_Name__c": "Perform Offcycle Compensation Change - Planned",
+    "L4_Processes_Group__c": "Manage Employee Compensation Data",
+    "Process__c": "Total Rewards",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Sabino Antonio Diaz",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care;OM;TRD",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MyGrIAK",
+    "Language": "en_US",
+    "Title": "Recognition for Excellence Award - Administration - Work Instruction - Global",
+    "UrlName": "EN-US-OPM-RECOGNITION-FOR-EXCELLENCE-AWARD---ADMINISTRATION---GLOBAL-20231007",
+    "ArticleNumber": "000014761",
+    "L4_Process_Name__c": "Recognition Awards",
+    "L4_Processes_Group__c": "Manage Employee Compensation Data",
+    "Process__c": "Total Rewards",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Boris Kovac",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;RPA",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MlgDIAS",
+    "Language": "en_US",
+    "Title": "Hiring - Confidential - Post-Hiring Activities - WI",
+    "UrlName": "EN-US-20240813154025533",
+    "ArticleNumber": "000016824",
+    "L4_Process_Name__c": "Hire / Rehire External Candidate",
+    "L4_Processes_Group__c": "Hiring People",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Hiring",
+    "ESD_Article_Author_Name__c": "Kamila Bozek-Puchala",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "SF Recruitment, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;Executive Hiring;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MlebIAC",
+    "Language": "en_US",
+    "Title": "Hiring - Confidential - No Show Reporting - WI",
+    "UrlName": "EN-US-20240813154104648",
+    "ArticleNumber": "000016839",
+    "L4_Process_Name__c": "Hire / Rehire External Candidate",
+    "L4_Processes_Group__c": "Hiring People",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Hiring",
+    "ESD_Article_Author_Name__c": "Kamila Bozek-Puchala",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "SF Recruitment, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC, SF RCM",
+    "ESD_Target_Team__c": "Executive Hiring;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MlczIAC",
+    "Language": "en_US",
+    "Title": "Hiring - Confidential - Hire Date Correction - WI",
+    "UrlName": "EN-US-20240813154104647",
+    "ArticleNumber": "000016842",
+    "L4_Process_Name__c": "Hire / Rehire External Candidate",
+    "L4_Processes_Group__c": "Hiring People",
+    "Process__c": "Talent Acquisition",
+    "Sub_Process__c": "Hiring",
+    "ESD_Article_Author_Name__c": "Kamila Bozek-Puchala",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "SF Recruitment, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC, SF RCM",
+    "ESD_Target_Team__c": "Executive Hiring;TAF",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MXdFIAW",
+    "Language": "en_US",
+    "Title": "Global Assignment - Extend - WI",
+    "UrlName": "EN-US-20240813153909662",
+    "ArticleNumber": "000016775",
+    "L4_Process_Name__c": "Extend Global Assignment",
+    "L4_Processes_Group__c": "Manage Global Assignments",
+    "Process__c": "Global Mobility",
+    "Sub_Process__c": "Short-Term Assignment;Long-Term Assignment;Repatriation;Assignment support",
+    "ESD_Article_Author_Name__c": "Piotr Nowak",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "SF Recruitment, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC, SF RCM",
+    "ESD_Target_Team__c": "Global Mobility;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MMMrIAO",
+    "Language": "en_US",
+    "Title": "Job Structure - Delimit - WI",
+    "UrlName": "EN-US-20240813155131284",
+    "ArticleNumber": "000016960",
+    "L4_Process_Name__c": "Manage Job Structures",
+    "L4_Processes_Group__c": "Manage Foundational Objects",
+    "Process__c": "Org Management",
+    "Sub_Process__c": "Position&OU Maintenance",
+    "ESD_Article_Author_Name__c": "Susana Ojanguren",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Foundation Object, Job Structure, New Job, Update Job, Delete Job, Manage Jobs, Job Description, Job Code, MRP Jobs, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Job Analysis",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MwLVIA0",
+    "Language": "en_US",
+    "Title": "Job Structure - Update - WI",
+    "UrlName": "EN-US-202408131550390",
+    "ArticleNumber": "000016952",
+    "L4_Process_Name__c": "Manage Job Structures",
+    "L4_Processes_Group__c": "Manage Foundational Objects",
+    "Process__c": "Org Management",
+    "Sub_Process__c": "Position&OU Maintenance",
+    "ESD_Article_Author_Name__c": "Susana Ojanguren",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Foundation Object, Job Structure, New Job, Update Job, Delete Job, Manage Jobs, Job Description, Job Code, MRP Jobs, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Job Analysis",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MwJtIAK",
+    "Language": "en_US",
+    "Title": "Job Structure - Create - WI",
+    "UrlName": "EN-US-20240813155038999",
+    "ArticleNumber": "000016953",
+    "L4_Process_Name__c": "Manage Job Structures",
+    "L4_Processes_Group__c": "Manage Foundational Objects",
+    "Process__c": "Org Management",
+    "Sub_Process__c": "Position&OU Maintenance",
+    "ESD_Article_Author_Name__c": "Susana Ojanguren",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Foundation Object, Job Structure, New Job, Update Job, Delete Job, Manage Jobs, Job Description, Job Code, MRP Jobs, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Job Analysis;P&C BP;TRD - Compensation & Reporting",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000M3FNIA0",
+    "Language": "en_US",
+    "Title": "Agency Temps - Local Cost Center Change - WI",
+    "UrlName": "EN-US-20240228152841657",
+    "ArticleNumber": "000015513",
+    "L4_Process_Name__c": "Local Cost Center Change for Agency Temp",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Kamila Bozek-Puchala",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Agency Temp, Supplier, Agency, Vendor, Work Order, Position, No Show, SuccessFactors, Employee Central, SFEC",
+    "ESD_Target_Team__c": "OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000M5gzIAC",
+    "Language": "en_US",
+    "Title": "Probation - WI",
+    "UrlName": "EN-US-20240228152842844",
+    "ArticleNumber": "000015514",
+    "L4_Process_Name__c": "Manage Probation",
+    "L4_Processes_Group__c": "Manage Employee Job Data",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Kamila Bozek-Puchala",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Probation, Extension, Termination, Involuntary, Successful Completion, SuccessFactors, Employee Central, Data Change, Document",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MBKzIAO",
+    "Language": "en_US",
+    "Title": "SMDL and Other SFEC Objects - Manage - WI",
+    "UrlName": "EN-US-20240229185833735",
+    "ArticleNumber": "000015558",
+    "L4_Process_Name__c": "Manage Job Structures",
+    "L4_Processes_Group__c": "Manage Foundational Objects",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000M5c9IAC",
+    "Language": "en_US",
+    "Title": "Position Title - Update (non-pilot markets) - WI",
+    "UrlName": "EN-US-20240813155322901",
+    "ArticleNumber": "000017004",
+    "L4_Process_Name__c": "Position Title Change",
+    "L4_Processes_Group__c": "Manage Position",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Create Position, Update Position, Delimit Position, Vacant Position, Position Management, SuccessFactors Employee Central (SFEC)",
+    "ESD_Target_Team__c": "Employee Care;Job Analysis;Local P&ED;OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MJbtIAG",
+    "Language": "en_US",
+    "Title": "Vacant Position - Delimit (non-pilot markets) - WI",
+    "UrlName": "EN-US-20240813155301331",
+    "ArticleNumber": "000016997",
+    "L4_Process_Name__c": "Close Position (Vacant Positions)",
+    "L4_Processes_Group__c": "Manage Position",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Delimit Position, Vacant Position, Position Management, SuccessFactors Employee Central (SFEC)",
+    "ESD_Target_Team__c": "OM",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MJdVIAW",
+    "Language": "en_US",
+    "Title": "Vacant Position - Update (non-pilot markets) - WI",
+    "UrlName": "EN-US-20240813155301330",
+    "ArticleNumber": "000016996",
+    "L4_Process_Name__c": "Update Position (Vacant Positions)",
+    "L4_Processes_Group__c": "Manage Position",
+    "Process__c": "Org Management",
+    "Sub_Process__c": "Position&OU Maintenance",
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Update Position, Vacant Position, Position Management, SuccessFactors Employee Central (SFEC)",
+    "ESD_Target_Team__c": "Employee Care;Job Analysis;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MJaHIAW",
+    "Language": "en_US",
+    "Title": "Vacant Position - Create (non-pilot markets) - WI",
+    "UrlName": "EN-US-20240813155301328",
+    "ArticleNumber": "000016995",
+    "L4_Process_Name__c": "Create Position",
+    "L4_Processes_Group__c": "Manage Position",
+    "Process__c": "Org Management",
+    "Sub_Process__c": "Position&OU Maintenance",
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Create Position, Vacant Position, Position Management, SuccessFactors Employee Central (SFEC)",
+    "ESD_Target_Team__c": "Employee Care;Job Analysis;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000M5YvIAK",
+    "Language": "en_US",
+    "Title": "Position - Create & Manage (non-pilot markets) - Country Specifics",
+    "UrlName": "EN-US-20240429105833152",
+    "ArticleNumber": "000016451",
+    "L4_Process_Name__c": "Create Position;Update Position (Vacant Positions);Close Position (Vacant Positions);Position Title Change",
+    "L4_Processes_Group__c": "Manage Position",
+    "Process__c": "Org Management",
+    "Sub_Process__c": "Position&OU Maintenance",
+    "ESD_Article_Author_Name__c": "Dorota Grzywaczyk",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "Position Management, Create Position, Update Position, Delimit Position, Vacant Position, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Employee Care;Job Analysis;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000M3s5IAC",
+    "Language": "en_US",
+    "Title": "Exit - Death in Service - WI",
+    "UrlName": "EN-US-20240813154551747",
+    "ArticleNumber": "000016875",
+    "L4_Process_Name__c": "Death in Service",
+    "L4_Processes_Group__c": "Manage Termination",
+    "Process__c": "Exit Management",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Rocio Balina",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Exit Reason, Exit Date, Position, Fixed Term Contract, No Show, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "Employee Care;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000M48DIAS",
+    "Language": "en_US",
+    "Title": "Exit - Retirement - WI",
+    "UrlName": "EN-US-20240813154551746",
+    "ArticleNumber": "000016876",
+    "L4_Process_Name__c": "Retirement",
+    "L4_Processes_Group__c": "Manage Termination",
+    "Process__c": "Exit Management",
+    "Sub_Process__c": "Retirement",
+    "ESD_Article_Author_Name__c": "Rocio Balina",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Exit Reason, Exit Date, Position, Fixed Term Contract, No Show, SuccessFactors, Employee Central",
+    "ESD_Target_Team__c": "P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MbKHIA0",
+    "Language": "en_US",
+    "Title": "Permanent International Transfer - WI",
+    "UrlName": "EN-US-20240228153551568",
+    "ArticleNumber": "000015550",
+    "L4_Process_Name__c": "Manage Job Moves: Permanent International Transfer",
+    "L4_Processes_Group__c": "Manage Global Assignments",
+    "Process__c": "Global Mobility",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Piotr Nowak",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "SF Recruitment, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MMEnIAO",
+    "Language": "en_US",
+    "Title": "Recognition for Excellence Award - Registration - Work Instruction - Global",
+    "UrlName": "EN-US-20240228153556415",
+    "ArticleNumber": "000015554",
+    "L4_Process_Name__c": "Recognition Awards",
+    "L4_Processes_Group__c": "Manage Employee Compensation Data",
+    "Process__c": "Total Rewards",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Daniela Ilie",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": null,
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000McbJIAS",
+    "Language": "en_US",
+    "Title": "IC & Stock Part 2 - WI",
+    "UrlName": "EN-US-20240325152143721",
+    "ArticleNumber": "000016403",
+    "L4_Process_Name__c": "IC & Stock",
+    "L4_Processes_Group__c": "Manage Employee Compensation Data",
+    "Process__c": "Total Rewards",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Daniela Ilie",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "IC & Stock, SuccessFactors Employee Central (SFEC), Corporate Compensation Programs, Regional TRD / Global Mobility, Employee Care, CCP",
+    "ESD_Target_Team__c": "CCP;TRD - Regional",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MccvIAC",
+    "Language": "en_US",
+    "Title": "IC & Stock Part 1 - WI",
+    "UrlName": "EN-US-20240305145215277",
+    "ArticleNumber": "000015565",
+    "L4_Process_Name__c": "IC & Stock",
+    "L4_Processes_Group__c": "Manage Employee Compensation Data",
+    "Process__c": "Total Rewards",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Daniela Ilie",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "IC & Stock, SuccessFactors Employee Central (SFEC), Corporate Compensation Programs, Regional TRD / Global Mobility, Employee Care, CCP",
+    "ESD_Target_Team__c": "CCP;TRD - Regional",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000MckzIAC",
+    "Language": "en_US",
+    "Title": "Twilio - WI",
+    "UrlName": "EN-US-20240228152925107",
+    "ArticleNumber": "000015548",
+    "L4_Process_Name__c": "Twilio",
+    "L4_Processes_Group__c": "Contacts & Channels",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Liezl Cacafranca",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "Twilio, Telephony, iCare, Call, Case, Case Management, Call, Agent, Skills, Call Forwarding, Twilio Dashboard, Twilio Report ",
+    "ESD_Target_Team__c": "Employee Care",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000McEjIAK",
+    "Language": "en_US",
+    "Title": "One-Time Payment - WI",
+    "UrlName": "EN-US-20240228153555171",
+    "ArticleNumber": "000015553",
+    "L4_Process_Name__c": "Perform and Manage One Time Payments",
+    "L4_Processes_Group__c": "Manage Employee Compensation Data",
+    "Process__c": "Total Rewards",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Daniela Ilie",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "One-time Payment, SFSF, Document Management System, iCare Ticketing System, Knowledge Management Tool – MyPMI, SFSF",
+    "ESD_Target_Team__c": "Employee Care;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000McoDIAS",
+    "Language": "en_US",
+    "Title": "Case Management - WI",
+    "UrlName": "EN-US-20240228152926244",
+    "ArticleNumber": "000015549",
+    "L4_Process_Name__c": "Case Management;Livechat",
+    "L4_Processes_Group__c": "Contacts & Channels",
+    "Process__c": null,
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Liezl Cacafranca",
+    "ESD_L5_Type__c": "Work Instruction",
+    "ESD_Tag__c": "iCare, Case, Case Management, Case Creation, Manual Case Creation, Accept Case, Case Transfer, Case Closure, Reopened Case, Parent Case, Child Case, Case Merging, Recurring Case, Live Chat",
+    "ESD_Target_Team__c": "CCP;Cloud Support;Employee Care;Global Mobility;Job Analysis;Local P&ED;OM;TAF;TRD",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000M4PxIAK",
+    "Language": "en_US",
+    "Title": "Global Assignment - Country Specifics",
+    "UrlName": "EN-US-20240228152840309",
+    "ArticleNumber": "000015512",
+    "L4_Process_Name__c": "Start Global Assignment;Extend Global Assignment;End Global Assignment",
+    "L4_Processes_Group__c": "Manage Global Assignments",
+    "Process__c": "Global Mobility",
+    "Sub_Process__c": "Short-Term Assignment;Long-Term Assignment;Repatriation;Assignment support",
+    "ESD_Article_Author_Name__c": "Piotr Nowak",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "SF Recruitment, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;OM;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  },
+  {
+    "Id": "ka0Tq000000M5U5IAK",
+    "Language": "en_US",
+    "Title": "Permanent International Transfer - Country Specifics",
+    "UrlName": "EN-US-20240228153552826",
+    "ArticleNumber": "000015551",
+    "L4_Process_Name__c": "Manage Job Moves: Permanent International Transfer",
+    "L4_Processes_Group__c": "Manage Global Assignments",
+    "Process__c": "Global Mobility",
+    "Sub_Process__c": null,
+    "ESD_Article_Author_Name__c": "Piotr Nowak",
+    "ESD_L5_Type__c": "Country Specifics",
+    "ESD_Tag__c": "SF Recruitment, Job and Comp Info, Position, SuccessFactors, Employee Central, SFEC, SF RCM",
+    "ESD_Target_Team__c": "Employee Care;Global Mobility;P&C BP",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v59.0/sobjects/RecordType/012670000015Ct8AAE"
+      },
+      "Name": "P&C L5 Work Instruction"
+    }
+  }
+]
