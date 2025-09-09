@@ -1,49 +1,76 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>P&C Work Instructions – Navigator (Light, JSON-powered)</title>
+<title>P&C Work Instructions – Navigator (Light/Dark, JSON-powered)</title>
 <style>
+/* ---------- THEME TOKENS ---------- */
+/* Light (default) */
 :root{
   --bg:#ffffff; --ink:#0f172a; --muted:#475569; --panel:#f8fafc; --border:#e2e8f0;
   --accent:#0369a1; --accent-bg:#e0f2fe; --chip:#eef2f7; --chip-border:#d8dee9;
   --wi:#1d4ed8; --cs:#b45309;
 }
+/* Dark */
+html[data-theme="dark"]{
+  --bg:#0b0f14; --ink:#e8eef5; --muted:#9bb0c9; --panel:#121821; --border:#202938;
+  --accent:#7dd3fc; --accent-bg:#0b1b24; --chip:#1c2431; --chip-border:#2a3444;
+  --wi:#93c5fd; --cs:#fbbf24;
+}
+
 *{box-sizing:border-box}
 html,body{height:100%}
 body{margin:0;font-family:Segoe UI,Inter,system-ui,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink)}
 .container{max-width:1100px;margin:auto;padding:20px}
+
+/* Header */
 header{display:flex;gap:12px;align-items:center;justify-content:space-between;margin-bottom:8px}
 .brand{display:flex;gap:10px;align-items:center}
 .brand h1{margin:0;font-size:20px}
 .brand small{color:var(--muted)}
+
+/* Controls */
 .controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .search{display:flex;gap:8px;align-items:center;background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:8px 12px}
 .search input{flex:1;background:transparent;border:0;outline:none;color:var(--ink);font-size:16px;min-width:220px}
 .select, .toggle, .btn{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:8px 10px;color:var(--ink)}
 .btn{cursor:pointer}
+.btn:hover{box-shadow:0 4px 14px rgba(0,0,0,.08)}
+.theme-btn{display:inline-flex;align-items:center;gap:6px}
+
+/* Tag multiselect */
 .select{position:relative}
 .select>button{display:flex;align-items:center;gap:8px;background:transparent;border:0;color:var(--ink);cursor:pointer}
-.menu{position:absolute;z-index:5;top:110%;left:0;background:#fff;border:1px solid var(--border);border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,.08);padding:8px;min-width:260px;max-height:280px;overflow:auto;display:none}
+.menu{position:absolute;z-index:5;top:110%;left:0;background:var(--bg);border:1px solid var(--border);border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,.08);padding:8px;min-width:260px;max-height:280px;overflow:auto;display:none}
 .select.open .menu{display:block}
 .menu .row{display:flex;gap:8px;align-items:center;padding:6px;border-radius:8px}
 .menu .row:hover{background:var(--panel)}
 .counter{color:var(--muted);font-size:12px}
+
+/* Cards */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px;margin-top:14px}
-.card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:6px}
+.card{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:6px}
 .card h3{margin:0;font-size:16px}
 .card a{color:var(--accent);text-decoration:none}
 .meta{display:flex;gap:8px;flex-wrap:wrap}
 .badges{display:flex;flex-wrap:wrap;gap:6px}
 .badge{display:inline-flex;align-items:center;gap:6px;background:var(--chip);border:1px solid var(--chip-border);padding:2px 8px;border-radius:999px;font-size:12px;color:var(--muted)}
-.type-wi{color:var(--wi);border-color:#c7d2fe;background:#eef2ff}
+.type-wi{color:var(--wi);border-color:#c7d2fe;background:color-mix(in oklab, var(--wi) 12%, transparent)}
+html[data-theme="dark"] .type-wi{border-color:#334155;background:rgba(125,211,252,.12)}
 .type-cs{color:var(--cs);border-color:#fcd34d;background:#fffbeb}
+html[data-theme="dark"] .type-cs{border-color:#3a2d11;background:rgba(250,204,21,.12)}
+
+/* Meta info */
 .count{color:var(--muted);margin-top:8px}
 .status{margin:14px 0;padding:10px;border:1px dashed var(--border);border-radius:10px;color:var(--muted)}
 footer{margin-top:18px;color:var(--muted);font-size:12px}
-@media(max-width:640px){header{flex-direction:column;align-items:stretch}.controls{justify-content:flex-start}}
+
+/* Responsive */
+@media(max-width:640px){
+  header{flex-direction:column;align-items:stretch}
+  .controls{justify-content:flex-start}
+}
 </style>
 </head>
 <body>
@@ -56,7 +83,7 @@ footer{margin-top:18px;color:var(--muted);font-size:12px}
         </svg>
         <div>
           <h1>P&C Work Instructions</h1>
-          <small>Light theme · JSON-powered · Search, Group & Tag filters</small>
+          <small>JSON-powered · Search, Group & Tag filters · Light/Dark</small>
         </div>
       </div>
       <div class="controls">
@@ -65,6 +92,13 @@ footer{margin-top:18px;color:var(--muted);font-size:12px}
         </div>
         <select id="group" class="select" aria-label="Filter by group"></select>
         <label class="toggle"><input id="cs" type="checkbox"/> Country specifics only</label>
+
+        <!-- THEME TOGGLE BUTTON -->
+        <button id="themeToggle" class="btn theme-btn" aria-pressed="false" title="Toggle theme">
+          <span id="themeIcon" aria-hidden="true">🌙</span> <span id="themeLabel">Dark</span>
+        </button>
+
+        <!-- Tag multiselect -->
         <div class="select" id="tags-select" aria-label="Filter by tags" role="combobox" aria-expanded="false">
           <button type="button">Tags <span class="counter" id="tags-counter"></span></button>
           <div class="menu" role="listbox"></div>
@@ -82,14 +116,14 @@ footer{margin-top:18px;color:var(--muted);font-size:12px}
 <script>
 /* ==== CONFIG ==== */
 const JSON_PATH = 'WI_Export.json'; // same folder as this HTML
-// If your Salesforce domain differs, update this:
-const SALESFORCE_DOMAIN = 'https://mypmi.lightning.force.com';
+const SALESFORCE_DOMAIN = 'https://mypmi.lightning.force.com'; // change if needed
+const THEME_KEY = 'pc_wi_theme'; // 'light' | 'dark' | (unset)
 
 /* ==== UTILITIES ==== */
 const $ = s => document.querySelector(s);
 const $$ = s => Array.from(document.querySelectorAll(s));
-const esc = s => (s+'').replace(/[&<>\"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[m]));
-const decodeHTML = s => (s+'').replace(/&amp;/g,'&'); // simple decode for &amp; seen in JSON
+const esc = s => (s+'').replace(/[&<>\"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const decodeHTML = s => (s+'').replace(/&amp;/g,'&'); // decode &amp; coming from JSON
 const splitMulti = v => (v? (v+'').split(/;|,/).map(x=>decodeHTML(x.trim())).filter(Boolean) : []);
 
 /* ==== STATE ==== */
@@ -97,8 +131,39 @@ let RAW = [];
 let DATA = [];     // normalized records
 let GROUPS = [];
 let TAGS = [];
-
 const state = { q:'', group:'', onlyCS:false, tags:new Set() };
+
+/* ==== THEME MANAGEMENT ==== */
+function applyTheme(theme){
+  const html = document.documentElement;
+  html.setAttribute('data-theme', theme);
+  const isDark = theme === 'dark';
+  $('#themeToggle').setAttribute('aria-pressed', String(isDark));
+  $('#themeIcon').textContent = isDark ? '☀️' : '🌙';
+  $('#themeLabel').textContent = isDark ? 'Light' : 'Dark';
+}
+function resolveInitialTheme(){
+  const saved = localStorage.getItem(THEME_KEY);
+  if(saved === 'light' || saved === 'dark') return saved;
+  return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+}
+function initTheme(){
+  applyTheme(resolveInitialTheme());
+  $('#themeToggle').addEventListener('click', ()=>{
+    const current = document.documentElement.getAttribute('data-theme') || 'light';
+    const next = current === 'light' ? 'dark' : 'light';
+    applyTheme(next);
+    localStorage.setItem(THEME_KEY, next);
+  });
+
+  // If user hasn’t saved a preference, follow system changes
+  if(!localStorage.getItem(THEME_KEY) && window.matchMedia){
+    const mq = window.matchMedia('(prefers-color-scheme: dark)');
+    mq.addEventListener('change', e=>{
+      applyTheme(e.matches ? 'dark' : 'light');
+    });
+  }
+}
 
 /* ==== RENDERING ==== */
 function card(r){
@@ -117,14 +182,12 @@ function card(r){
     ${tags?`<div class="badges">${tags}</div>`:''}
   </div>`;
 }
-
 function matchesTags(record){
   if(state.tags.size===0) return true;
   const recTags = new Set(record.tags);
   for(const t of state.tags){ if(recTags.has(t)) return true; } // OR logic
   return false;
 }
-
 function filterData(){
   const q = state.q.toLowerCase();
   return DATA.filter(r=>{
@@ -138,7 +201,6 @@ function filterData(){
     return true;
   });
 }
-
 function render(){
   const res = filterData();
   $('#count').style.display = 'block';
@@ -186,7 +248,6 @@ function normalize(raw){
   const id = raw.Id || '';
   const title = (raw.Title || '').trim();
   const l5 = (raw.ESD_L5_Type__c || '').trim();
-  // Use provided URL if exists; else build from domain + Id
   const url = raw.URL ? raw.URL : `${SALESFORCE_DOMAIN}/lightning/r/Knowledge__kav/${id}/view`;
   return {
     id,
@@ -202,7 +263,6 @@ function normalize(raw){
     type_simple: (/country specifics/i.test(l5) || /country specifics/i.test(title)) ? 'Country Specifics' : 'Work Instruction'
   };
 }
-
 async function loadJSON(){
   try{
     const res = await fetch(JSON_PATH, {cache:'no-store'});
@@ -226,7 +286,8 @@ async function loadJSON(){
   }
 }
 
-/* ==== GO ==== */
+/* ==== BOOT ==== */
+initTheme();
 loadJSON();
 </script>
 </body>
