@@ -7,6 +7,7 @@ import { Sidebar } from './ui/sidebar.js';
 import { AudienceSelect } from './ui/audience.js';
 import { CardsView } from './ui/cards.js';
 import { FilterChips } from './ui/chips.js';
+import { JSON_PATH } from './config.js';
 
 async function main(){
   const theme = new ThemeManager();
@@ -19,13 +20,27 @@ async function main(){
   state.fromHash();
 
   const statusEl = $('#status');
+  // Diagnostic: confirm JS loaded and show computed JSON path
+  if (statusEl) statusEl.textContent = `Loading data… (JS loaded, src = ${JSON_PATH})`;
+
   try{
+    // Kick off data load
     await data.load();
-    statusEl.style.display='none';
+    if (statusEl) statusEl.style.display='none';
     $('#built').textContent = new Date().toISOString().slice(0,16).replace('T',' ') + ' UTC';
   }catch(err){
-    statusEl.innerHTML = `Couldn't load <code>WI_Export.json</code> (${err.message}).<br/>
-    Tip: host on SharePoint/Teams or use a small local server when testing.`;
+    // Show detailed error if fetch fails
+    if (statusEl){
+      statusEl.innerHTML = `
+        <strong>Failed to load data.</strong><br/>
+        Tried: <code>${JSON_PATH}</code><br/>
+        Error: <code>${(err && err.message) || err}</code><br/><br/>
+        Tips:<br/>
+        • Ensure <code>WI_Export.json</code> is in the <em>same folder</em> as <code>index.html</code> on GitHub Pages.<br/>
+        • Or pass a custom path via <code>?src=path/to/WI_Export.json</code> (relative to this page).<br/>
+        • If your Pages site uses the <code>docs/</code> folder, make sure the JSON file is inside <code>docs/</code> as well.
+      `;
+    }
     console.error(err);
     return;
   }
@@ -67,3 +82,4 @@ async function main(){
   });
 }
 
+main();
