@@ -8,6 +8,7 @@ export class CardsView {
     this.dataService = dataService;
     this.resultsEl = $('#results');
     this.countEl = $('#count');
+    this.sr = $('#sr-announce');
   }
 
   render(){
@@ -35,6 +36,8 @@ export class CardsView {
       });
       this.resultsEl.innerHTML = sections.join('');
     }
+
+    this.attachCopyHandlers();
   }
 
   escape(s){
@@ -46,20 +49,20 @@ export class CardsView {
   card(r){
     const tcls = r.type_simple==='Country Specifics' ? 'type-cs' : 'type-wi';
 
-    // Row 1: Title (with highlights)
+    // Title
     const titleHTML = highlights(r.title, this.state.qTokens);
 
-    // Row 2: Type + Level 4 Process Group + Level 4 Process (Name)
+    // Type + L4 Group + L4 Name
     const typeB = `<span class="badge ${tcls}">${this.escape(r.type_simple)}</span>`;
     const l4g   = r.l4_group ? `<span class="badge">${highlights(r.l4_group, this.state.qTokens)}</span>` : '';
     const l4n   = r.l4_name  ? `<span class="badge">${highlights(r.l4_name, this.state.qTokens)}</span>`   : '';
 
-    // Row 3: Author + Article Number (only if present)
+    // Author + Article #
     const author = r.author ? `<span class="helper">Author: ${this.escape(r.author)}</span>` : '';
     const artno  = r.article_number ? `<span class="helper">Article #: ${this.escape(r.article_number)}</span>` : '';
     const infoRow = (author || artno) ? `<div class="meta">${author}${artno}</div>` : '';
 
-    return `<div class="card" data-id="${this.escape(r.id)}">
+    return `<div class="card" data-id="${this.escape(r.id)}" data-url="${this.escape(r.url)}">
       <h3><a href="${this.escape(r.url)}" target="_blank" rel="noopener">${titleHTML}</a></h3>
       <div class="meta">
         ${typeB}
@@ -67,6 +70,46 @@ export class CardsView {
         ${l4n}
       </div>
       ${infoRow}
+      <div class="card-actions">
+        <button class="btn-sm copy-link" title="Copy WI link">Copy link</button>
+      </div>
     </div>`;
+  }
+
+  attachCopyHandlers(){
+    this.resultsEl.querySelectorAll('.copy-link').forEach(btn=>{
+      btn.addEventListener('click', async (e)=>{
+        const card = e.currentTarget.closest('.card');
+        if(!card) return;
+        const url = card.getAttribute('data-url') || '';
+        const original = e.currentTarget.textContent;
+        try{
+          if(navigator.clipboard && location.protocol.startsWith('http')){
+            await navigator.clipboard.writeText(url);
+          } else {
+            const ta = document.createElement('textarea');
+            ta.value = url;
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand('copy');
+            document.body.removeChild(ta);
+          }
+          e.currentTarget.textContent = 'Copied!';
+          this.announce('Link copied to clipboard');
+          setTimeout(()=> e.currentTarget.textContent = original, 1200);
+        }catch(err){
+          console.error('Copy failed', err);
+          e.currentTarget.textContent = 'Copy failed';
+          this.announce('Copy failed');
+          setTimeout(()=> e.currentTarget.textContent = original, 1600);
+        }
+      });
+    });
+  }
+
+  announce(msg){
+    if(!this.sr) return;
+    this.sr.textContent = '';
+    setTimeout(()=> this.sr.textContent = msg, 10);
   }
 }
