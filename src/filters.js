@@ -21,11 +21,10 @@ export function applyFiltersAndSort(data, state, scoreFn){
     if(!matchesType(r, state)) return false;
     if(!matchesAudience(r, state)) return false;
     if(!matchesGroup(r, state)) return false;
-    if(tokens.length){
-      if(!tokens.every(tok => r._index.includes(tok))) return false;
-    }
+    if(tokens.length && !tokens.every(tok => r._index.includes(tok))) return false;
     return true;
   });
+
   if(tokens.length){
     res.forEach(r => r._score = scoreFn(r, tokens));
     res.sort((a,b)=> b._score - a._score ||
@@ -42,7 +41,6 @@ export function applyFiltersAndSort(data, state, scoreFn){
 }
 
 export function computeGroupCounts(data, state){
-  // Counts reflect current filters: type, audience, query (but not currently selected group)
   const savedGroup = state.group;
   state.group = '';
   const tokens = state.qTokens;
@@ -59,7 +57,6 @@ export function computeGroupCounts(data, state){
 }
 
 export function audienceCountsForMenu(data, state){
-  // Ignore current audience selections to show available counts with other filters applied
   const saved = new Set(state.audience);
   state.audience = new Set();
   const tokens = state.qTokens;
