@@ -3,8 +3,11 @@ const qs = new URLSearchParams(location.search);
 
 /**
  * Allows overriding the WI JSON path via URL, e.g.:
+ *   ?src=WI_Export.json
  *   ?src=data/WI_Export.json
- * Defaults to 'WI_Export.json' in the same folder as index.html
+ *
+ * NOTE: Path is relative to index.html at runtime.
+ * If your Pages site root is /docs, ensure the file lives under /docs as well.
  */
 export const JSON_PATH = qs.get('src') || 'WI_Export.json';
 
