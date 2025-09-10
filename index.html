@@ -54,6 +54,9 @@
         <!-- Clear all filters -->
         <button id="clearAll" class="btn clear-btn" title="Clear all filters">Clear filters</button>
       </div>
+
+      <!-- Active filter chips -->
+      <div id="active-filters" class="chips" aria-label="Active filters"></div>
     </header>
 
     <div class="layout">
@@ -74,6 +77,9 @@
       </main>
     </div>
   </div>
+
+  <!-- Screen reader announcements (for "Copied!") -->
+  <div id="sr-announce" aria-live="polite" class="visually-hidden"></div>
 
   <!-- App entry point -->
   <script type="module" src="./src/app.js"></script>
