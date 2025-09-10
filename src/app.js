@@ -6,6 +6,7 @@ import { Controls } from './ui/controls.js';
 import { Sidebar } from './ui/sidebar.js';
 import { AudienceSelect } from './ui/audience.js';
 import { CardsView } from './ui/cards.js';
+import { FilterChips } from './ui/chips.js';
 
 async function main(){
   const theme = new ThemeManager();
@@ -34,15 +35,18 @@ async function main(){
   const sidebar  = new Sidebar(state, data);
   const audience = new AudienceSelect(state, data);
   const cards    = new CardsView(state, data);
+  const chips    = new FilterChips(state);
 
   controls.init();
   audience.init();
+  chips.init();
 
   // Re-render on state changes, persist to URL/localStorage
   const renderAll = ()=>{
     try{
       sidebar.render();
       cards.render();
+      chips.render();
       state.toHash();
       state.toLocal();
     }catch(e){ console.error(e); }
@@ -56,7 +60,6 @@ async function main(){
   on(window, 'hashchange', ()=>{
     const before = state.snapshot();
     state.fromHash();
-    // if state actually changed, emit to re-render
     const after = state.snapshot();
     if(JSON.stringify(before) !== JSON.stringify(after)){
       state.emit();
@@ -64,4 +67,3 @@ async function main(){
   });
 }
 
-main();
