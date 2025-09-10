@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>P&C Work Instructions – Navigator</title>
+  <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="topbar">
+        <div class="brand">
+          <div>
+            <h1>P&amp;C Work Instructions</h1>
+            <small>BETA Version - Testing Only</small>
+          </div>
+        </div>
+        <button id="themeToggle" class="theme-btn" aria-pressed="false" title="Toggle theme">
+          <span id="themeIcon" aria-hidden="true">🌙</span>
+          <span id="themeLabel">Dark</span>
+        </button>
+      </div>
+
+      <div class="controls" role="region" aria-label="Filters">
+        <div class="search">
+          <input id="q" type="search" placeholder="Search title, Level 4, process, audience, author, article #"
+                 aria-label="Search"/>
+        </div>
+
+        <label class="toggle" for="csMode">Type</label>
+        <select id="csMode" class="select" aria-label="Type filter">
+          <option value="all">All</option>
+          <option value="cs">Country Specifics</option>
+          <option value="wi">Work Instructions</option>
+        </select>
+
+        <div class="select" id="audience-select" aria-label="Filter by audience" role="combobox" aria-expanded="false">
+          <button type="button">Audience <span class="counter" id="aud-counter"></span></button>
+          <div class="menu" role="listbox">
+            <div class="hdr">
+              <input type="search" id="aud-search" placeholder="Search audience…" aria-label="Search audience"/>
+            </div>
+            <div id="aud-list"></div>
+            <div class="actions">
+              <button id="aud-clear">Clear</button>
+              <button id="aud-close">Close</button>
+            </div>
+          </div>
+        </div>
+
+        <button id="clearAll" class="btn clear-btn" title="Clear all filters">Clear filters</button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="Level 4 Process">
+        <h2>Level 4 Process</h2>
+        <div class="groups" id="groups"></div>
+      </aside>
+
+      <main>
+        <div id="status" class="status">Loading data…</div>
+        <div class="count" id="count" style="display:none"></div>
+        <div id="results" aria-live="polite"></div>
+        <footer style="margin-top:18px;color:var(--muted);font-size:12px">
+          Loads <code>WI_Export.json</code> from the same folder • <span id="built"></span>
+        </footer>
+      </main>
+    </div>
+  </div>
+
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
