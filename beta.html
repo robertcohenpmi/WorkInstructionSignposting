@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>P&C Work Instructions – Navigator</title>
+<style>
+/* ---------- THEME TOKENS ---------- */
+/* Light (default) */
+:root{
+  --bg:#ffffff; --ink:#0f172a; --muted:#475569; --panel:#f8fafc; --border:#e2e8f0;
+  --accent:#0369a1; --accent-bg:#e0f2fe; --chip:#eef2f7; --chip-border:#d8dee9;
+  --wi:#1d4ed8; --cs:#b45309; --shadow:0 6px 24px rgba(0,0,0,.08);
+}
+/* Dark */
+html[data-theme="dark"]{
+  --bg:#0b0f14; --ink:#e8eef5; --muted:#9bb0c9; --panel:#121821; --border:#202938;
+  --accent:#7dd3fc; --accent-bg:#0b1b24; --chip:#1c2431; --chip-border:#2a3444;
+  --wi:#93c5fd; --cs:#fbbf24; --shadow:0 8px 30px rgba(0,0,0,.25);
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font-family:Segoe UI,Inter,system-ui,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+.container{max-width:1200px;margin:auto;padding:20px}
+
+/* Header */
+header{display:flex;flex-direction:column;gap:10px;margin-bottom:8px}
+.topbar{display:flex;gap:12px;align-items:center;justify-content:space-between}
+.brand{display:flex;gap:10px;align-items:center}
+.brand h1{margin:0;font-size:20px}
+.brand small{color:var(--muted)}
+
+/* Theme button */
+.theme-btn{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:8px 12px;color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.theme-btn:hover{box-shadow:var(--shadow)}
+
+/* Controls row */
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.search{display:flex;gap:8px;align-items:center;background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:8px 12px}
+.search input{flex:1;background:transparent;border:0;outline:none;color:var(--ink);font-size:16px;min-width:220px}
+.select, .toggle, .btn, .segmented{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:8px 10px;color:var(--ink)}
+.btn{cursor:pointer}
+.clear-btn{background:transparent;border-color:var(--border)}
+.clear-btn:hover{background:var(--panel);box-shadow:var(--shadow)}
+
+/* Audience multiselect */
+.select{position:relative}
+.select>button{display:flex;align-items:center;gap:8px;background:transparent;border:0;color:var(--ink);cursor:pointer}
+.menu{position:absolute;z-index:5;top:110%;left:0;background:var(--bg);border:1px solid var(--border);border-radius:10px;box-shadow:var(--shadow);padding:8px;min-width:280px;max-height:320px;overflow:auto;display:none}
+.select.open .menu{display:block}
+.menu .hdr{display:flex;gap:6px;align-items:center;padding:4px 6px}
+.menu .hdr input{flex:1;background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:6px 8px;color:var(--ink)}
+.menu .row{display:flex;gap:8px;align-items:center;padding:6px;border-radius:8px}
+.menu .row:hover{background:var(--panel)}
+.menu .row .count{margin-left:auto;color:var(--muted);font-size:12px}
+.counter{color:var(--muted);font-size:12px}
+.menu .actions{display:flex;justify-content:space-between;gap:6px;padding:4px 6px}
+.menu .actions button{border:1px solid var(--border);background:var(--panel);border-radius:8px;padding:6px 8px;cursor:pointer}
+
+/* Layout: sidebar + main */
+.layout{display:grid;grid-template-columns:260px 1fr;gap:16px;margin-top:6px}
+.sidebar{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:10px;position:sticky;top:10px;align-self:start;max-height:calc(100vh - 40px);overflow:auto}
+.sidebar h2{margin:4px 8px 8px;font-size:14px;color:var(--muted)}
+.groups{display:flex;flex-direction:column;gap:2px}
+.group-item{display:flex;gap:8px;align-items:center;padding:8px;border-radius:8px;cursor:pointer}
+.group-item .name{flex:1;min-width:0}
+.group-item .count{color:var(--muted);font-size:12px}
+.group-item:hover{background:var(--bg)}
+.group-item.active{background:var(--accent-bg);border:1px solid var(--border)}
+.group-item .name, .section-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* Cards in main */
+.section{margin-bottom:20px}
+.section-title{font-size:14px;color:var(--muted);padding:8px 2px;border-bottom:1px solid var(--border);margin-bottom:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px}
+.card{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font-size:16px}
+.card a{color:var(--accent);text-decoration:none}
+.meta{display:flex;gap:8px;flex-wrap:wrap}
+.badges{display:flex;flex-wrap:wrap;gap:6px}
+.badge{display:inline-flex;align-items:center;gap:6px;background:var(--chip);border:1px solid var(--chip-border);padding:2px 8px;border-radius:999px;font-size:12px;color:var(--muted);cursor:default}
+.badge.clickable{cursor:pointer}
+.more-badge{cursor:pointer}
+.type-wi{color:var(--wi);border-color:#c7d2fe;background:color-mix(in oklab, var(--wi) 12%, transparent)}
+html[data-theme="dark"] .type-wi{border-color:#334155;background:rgba(125,211,252,.12)}
+.type-cs{color:var(--cs);border-color:#fcd34d;background:#fffbeb}
+html[data-theme="dark"] .type-cs{border-color:#3a2d11;background:rgba(250,204,21,.12)}
+.helper{color:var(--muted);font-size:12px}
+
+/* Count & status */
+.count{color:var(--muted);margin:6px 0}
+.status{margin:10px 0;padding:10px;border:1px dashed var(--border);border-radius:10px;color:var(--muted)}
+
+/* Highlight */
+mark{background:color-mix(in oklab, var(--accent) 18%, transparent);color:inherit;padding:0 .1em;border-radius:3px}
+
+/* Responsive */
+@media(max-width:1024px){
+  .layout{grid-template-columns:1fr}
+  .sidebar{position:static;max-height:none}
+}
+@media(max-width:640px){
+  .controls{justify-content:flex-start}
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="topbar">
+        <div class="brand">
+          <div>
+            <h1>P&amp;C Work Instructions</h1>
+            <small>BETA Version - Testing Only</small>
+          </div>
+        </div>
+        <button id="themeToggle" class="theme-btn" aria-pressed="false" title="Toggle theme">
+          <span id="themeIcon" aria-hidden="true">🌙</span>
+          <span id="themeLabel">Dark</span>
+        </button>
+      </div>
+
+      <div class="controls" role="region" aria-label="Filters">
+        <div class="search">
+          <input id="q" type="search" placeholder="Search title, Level 4, process, audience, author, article #" aria-label="Search"/>
+        </div>
+
+        <!-- Country specifics (3-state) -->
+        <label class="toggle" for="csMode">Type</label>
+        <select id="csMode" class="select" aria-label="Type filter">
+          <option value="all">All</option>
+          <option value="cs">Country Specifics</option>
+          <option value="wi">Work Instructions</option>
+        </select>
+
+        <!-- Audience multi-select -->
+        <div class="select" id="audience-select" aria-label="Filter by audience" role="combobox" aria-expanded="false">
+          <button type="button">Audience <span class="counter" id="aud-counter"></span></button>
+          <div class="menu" role="listbox">
+            <div class="hdr">
+              <input type="search" id="aud-search" placeholder="Search audience…" aria-label="Search audience"/>
+            </div>
+            <div id="aud-list"></div>
+            <div class="actions">
+              <button id="aud-clear">Clear</button>
+              <button id="aud-close">Close</button>
+            </div>
+          </div>
+        </div>
+
+        <button id="clearAll" class="btn clear-btn" title="Clear all filters">Clear filters</button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="Level 4 Process">
+        <h2>Level 4 Process</h2>
+        <div class="groups" id="groups"></div>
+      </aside>
+
+      <main>
+        <div id="status" class="status">Loading data…</div>
+        <div class="count" id="count" style="display:none"></div>
+        <div id="results" aria-live="polite"></div>
+        <footer style="margin-top:18px;color:var(--muted);font-size:12px">
+          Loads <code>WI_Export.json</code> from the same folder • <span id="built"></span>
+        </footer>
+      </main>
+    </div>
+  </div>
+
+<script>
+/* ==== CONFIG ==== */
+const JSON_PATH = 'WI_Export.json'; // same folder as this HTML
+const SALESFORCE_DOMAIN = 'https://mypmi.lightning.force.com'; // change if needed
+const THEME_KEY = 'pc_wi_theme'; // 'light' | 'dark' | (unset)
+const STATE_KEY = 'pc_wi_state_v2';
+
+/* ==== UTILITIES ==== */
+const $  = s => document.querySelector(s);
+const $$ = s => Array.from(document.querySelectorAll(s));
+
+const htmlDecode = (s) => {
+  if (s == null) return '';
+  const t = document.createElement('textarea');
+  t.innerHTML = s;
+  return t.value;
+};
+const esc = s => (s+'').replace(/[&<>\"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const splitSemi = v => (v? (v+'').split(';').map(x=>htmlDecode(x).trim()).filter(Boolean) : []);
+const splitList = v => (v? (v+'').split(/;|,/).map(x=>htmlDecode(x).trim()).filter(Boolean) : []);
+const uniq = arr => [...new Set(arr)];
+const norm = s => {
+  s = (s||'')+'';
+  s = s.toLowerCase();
+  try { s = s.normalize('NFD').replace(/[\u0300-\u036f]/g,''); } catch(e){}
+  return s;
+};
+const parseHash = () => {
+  const h = (location.hash || '').replace(/^#/, '');
+  const p = new URLSearchParams(h);
+  return {
+    q       : p.get('q') || '',
+    group   : p.get('group') || '',
+    csMode  : p.get('type') || 'all',
+    audience: new Set((p.get('aud') || '').split(',').map(decodeURIComponent).filter(Boolean))
+  };
+};
+const writeHash = (st) => {
+  const p = new URLSearchParams();
+  if(st.q) p.set('q', st.q);
+  if(st.group) p.set('group', st.group);
+  if(st.csMode && st.csMode!=='all') p.set('type', st.csMode);
+  if(st.audience.size) p.set('aud', [...st.audience].map(encodeURIComponent).join(','));
+  const newHash = p.toString();
+  try { history.replaceState(null, '', newHash ? '#'+newHash : location.pathname + location.search); }
+  catch(e){ location.hash = newHash; }
+};
+const saveLocal = (st) => {
+  const j = { q:st.q, group:st.group, csMode:st.csMode, audience:[...st.audience] };
+  localStorage.setItem(STATE_KEY, JSON.stringify(j));
+};
+const loadLocal = () => {
+  try{
+    const j = JSON.parse(localStorage.getItem(STATE_KEY) || '{}');
+    return { q:j.q||'', group:j.group||'', csMode:j.csMode||'all', audience:new Set(j.audience||[]) };
+  }catch(e){ return { q:'', group:'', csMode:'all', audience:new Set() }; }
+};
+const debounce = (fn, ms=200) => {
+  let t; return (...args)=>{ clearTimeout(t); t=setTimeout(()=>fn(...args), ms); };
+};
+const tokenize = (q) => uniq((q||'').trim().split(/\s+/).filter(Boolean).map(norm));
+
+/* ==== STATE ==== */
+let RAW = [];
+let DATA = [];
+let GROUPS = [];
+let AUDIENCE = [];
+const state = { q:'', group:'', csMode:'all', audience:new Set(), qTokens:[] };
+
+/* ==== THEME ==== */
+function applyTheme(theme){
+  const html = document.documentElement;
+  html.setAttribute('data-theme', theme);
+  const isDark = theme === 'dark';
+  $('#themeToggle').setAttribute('aria-pressed', String(isDark));
+  $('#themeIcon').textContent = isDark ? '☀️' : '🌙';
+  $('#themeLabel').textContent = isDark ? 'Light' : 'Dark';
+}
+function resolveInitialTheme(){
+  const saved = localStorage.getItem(THEME_KEY);
+  if(saved === 'light' || saved === 'dark') return saved;
+  return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+}
+function initTheme(){
+  applyTheme(resolveInitialTheme());
+  $('#themeToggle').addEventListener('click', ()=>{
+    const current = document.documentElement.getAttribute('data-theme') || 'light';
+    const next = current === 'light' ? 'dark' : 'light';
+    applyTheme(next);
+    localStorage.setItem(THEME_KEY, next);
+  });
+  if(!localStorage.getItem(THEME_KEY) && window.matchMedia){
+    const mq = window.matchMedia('(prefers-color-scheme: dark)');
+    mq.addEventListener('change', e=> applyTheme(e.matches ? 'dark' : 'light'));
+  }
+}
+
+/* ==== NORMALIZATION ==== */
+function classifyType(raw){
+  const l5 = (raw.ESD_L5_Type__c || '');
+  const title = (raw.Title || '');
+  return (/country specifics/i.test(l5) || /country specifics/i.test(title)) ? 'Country Specifics' : 'Work Instruction';
+}
+function normalize(raw){
+  const id = raw.Id || '';
+  const url = raw.URL ? raw.URL : `${SALESFORCE_DOMAIN}/lightning/r/Knowledge__kav/${id}/view`;
+  const l4Group = raw.L4_Processes_Group__c || '';
+  const l4Name  = raw.L4_Process_Name__c || '';
+  return {
+    id,
+    url,
+    language: raw.Language || '',
+    title: (raw.Title || '').trim(),
+    article_number: raw.ArticleNumber || '',
+    l4_group: l4Group,
+    l4_name: l4Name,
+    process: raw.Process__c || '',
+    sub_process: raw.Sub_Process__c || '',
+    author: raw.ESD_Article_Author_Name__c || '',
+    tags: splitList(raw.ESD_Tag__c),               // not used for filtering now
+    audience: splitSemi(raw.ESD_Target_Team__c),    // primary multi-select
+    type_simple: classifyType(raw)
+  };
+}
+
+/* ==== RENDER HELPERS ==== */
+function highlight(text, tokens){
+  if(!text) return '';
+  let out = esc(text);
+  if(!tokens || !tokens.length) return out;
+  // Build a safe regex that matches any token
+  const pattern = tokens.map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|');
+  try{
+    out = out.replace(new RegExp(`(${pattern})`, 'gi'), m=>`<mark>${m}</mark>`);
+  }catch(e){}
+  return out;
+}
+function badge(content, extra=''){ return `<span class="badge ${extra}">${content}</span>`; }
+
+/* ==== FILTERING, SEARCH & RANKING ==== */
+function matchesAudience(record){
+  if(state.audience.size===0) return true;
+  const set = new Set(record.audience.map(a=>a.toLowerCase()));
+  for(const a of state.audience){
+    if(set.has(a.toLowerCase())) return true; // OR logic
+  }
+  return false;
+}
+function matchesType(record){
+  if(state.csMode === 'cs') return record.type_simple === 'Country Specifics';
+  if(state.csMode === 'wi') return record.type_simple === 'Work Instruction';
+  return true;
+}
+function matchesGroup(record){
+  return !state.group || record.l4_group === state.group;
+}
+function buildSearchIndex(r){
+  const fields = [
+    r.title, r.l4_group, r.l4_name, r.process, r.sub_process,
+    r.audience.join(' '), r.tags.join(' '), r.author, r.article_number
+  ].map(s=>s||'').join(' ');
+  return norm(fields);
+}
+function scoreRecord(r, tokens){
+  if(!tokens.length) return 0;
+  const t = tokens;
+  let score = 0;
+  const titleN = norm(r.title);
+  const l4nameN = norm(r.l4_name);
+  const l4groupN = norm(r.l4_group);
+  const processN = norm((r.process||'') + ' ' + (r.sub_process||''));
+  const authorN = norm(r.author);
+  const articleN = norm(r.article_number);
+  const audienceN = norm(r.audience.join(' '));
+  for(const k of t){
+    if(titleN.includes(k)) score += 3;
+    if(l4nameN.includes(k)) score += 2;
+    if(l4groupN.includes(k)) score += 1.5;
+    if(processN.includes(k)) score += 1.2;
+    if(audienceN.includes(k)) score += 1;
+    if(authorN.includes(k)) score += 0.8;
+    if(articleN.includes(k)) score += 0.8;
+  }
+  return score;
+}
+function applyFiltersAndSort(){
+  const tokens = state.qTokens;
+  let res = DATA.filter(r=>{
+    if(!matchesType(r)) return false;
+    if(!matchesAudience(r)) return false;
+    if(!matchesGroup(r)) return false;
+    if(tokens.length){
+      // quick negative check using precomputed search string
+      if(!tokens.every(tok => r._index.includes(tok))) {
+        return false;
+      }
+    }
+    return true;
+  });
+  // sort by score desc then by l4_group > l4_name > title
+  if(tokens.length){
+    res.forEach(r => r._score = scoreRecord(r, tokens));
+    res.sort((a,b)=> b._score - a._score ||
+      (a.l4_group||'').localeCompare(b.l4_group||'') ||
+      (a.l4_name||'').localeCompare(b.l4_name||'') ||
+      (a.title||'').localeCompare(b.title||'')
+    );
+  } else {
+    res.sort((a,b)=> (a.l4_group||'').localeCompare(b.l4_group||'') ||
+                    (a.l4_name||'').localeCompare(b.l4_name||'') ||
+                    (a.title||'').localeCompare(b.title||''));
+  }
+  return res;
+}
+
+/* ==== SIDEBAR (GROUPS) ==== */
+function computeGroupCounts(ignoreAudience=false){
+  const tokens = state.qTokens;
+  const counts = new Map();
+  DATA.forEach(r=>{
+    if(!matchesType(r)) return;
+    if(!ignoreAudience && !matchesAudience(r)) return;
+    if(tokens.length && !tokens.every(tok => r._index.includes(tok))) return;
+    const g = r.l4_group || '(Uncategorized)';
+    counts.set(g, (counts.get(g)||0) + 1);
+  });
+  return counts;
+}
+function renderGroups(){
+  const wrap = $('#groups');
+  const counts = computeGroupCounts();
+  const items = [];
+  const ALL = '(All Level 4 Processes)';
+  const total = [...counts.values()].reduce((a,b)=>a+b,0);
+  items.push({name:ALL,count:total, value:''});
+  GROUPS.forEach(g => {
+    items.push({name:g, count:counts.get(g)||0, value:g});
+  });
+  wrap.innerHTML = items.map(it=>{
+    const active = (state.group==='' && it.value==='') || (state.group===it.value);
+    return `<div class="group-item ${active?'active':''}" data-group="${esc(it.value)}" title="${esc(it.name)}">
+      <span class="name">${esc(it.name)}</span>
+      <span class="count">${it.count}</span>
+    </div>`;
+  }).join('');
+  // events
+  $$('#groups .group-item').forEach(el=>{
+    el.addEventListener('click', ()=>{
+      state.group = el.dataset.group || '';
+      persistState();
+      render();
+    });
+  });
+}
+
+/* ==== AUDIENCE MULTISELECT ==== */
+function buildAudienceMenu(){
+  const list = $('#aud-list');
+  list.innerHTML = '';
+  const counts = audienceCountsForMenu();
+  AUDIENCE.forEach(aud=>{
+    const checked = state.audience.has(aud) ? 'checked' : '';
+    const count = counts.get(aud) || 0;
+    const id = 'aud-' + btoa(encodeURIComponent(aud)).replace(/=+$/,'');
+    const row = document.createElement('label');
+    row.className='row';
+    row.innerHTML = `<input type="checkbox" id="${id}" value="${esc(aud)}" ${checked}/>
+      <span>${esc(aud)}</span>
+      <span class="count">${count}</span>`;
+    list.appendChild(row);
+  });
+}
+function audienceCountsForMenu(){
+  // Counts with other filters applied (group, type, query) but ignoring current Audience selections
+  const savedAudience = new Set(state.audience);
+  state.audience = new Set(); // temporarily ignore audience
+  const res = applyFiltersAndSort();
+  state.audience = savedAudience;
+  const counts = new Map();
+  res.forEach(r=>{
+    r.audience.forEach(a=>{
+      counts.set(a, (counts.get(a)||0)+1);
+    });
+  });
+  return counts;
+}
+function wireAudienceControls(){
+  const wrap = $('#audience-select');
+  const btn = wrap.querySelector('button');
+  const menu = wrap.querySelector('.menu');
+  const list = $('#aud-list');
+  const search = $('#aud-search');
+  const clear = $('#aud-clear');
+  const close = $('#aud-close');
+
+  btn.addEventListener('click', ()=>{
+    wrap.classList.toggle('open');
+    if(wrap.classList.contains('open')){
+      buildAudienceMenu();
+      search.value='';
+      filterAudienceMenu('');
+      search.focus();
+    }
+  });
+  close.addEventListener('click', ()=> wrap.classList.remove('open'));
+  clear.addEventListener('click', ()=>{
+    state.audience.clear();
+    persistState();
+    render();
+  });
+  list.addEventListener('change', (e)=>{
+    const cb = e.target.closest('input[type=checkbox]');
+    if(!cb) return;
+    if(cb.checked) state.audience.add(cb.value); else state.audience.delete(cb.value);
+    persistState();
+    render();
+  });
+  search.addEventListener('input', ()=>{
+    filterAudienceMenu(search.value.trim());
+  });
+  document.addEventListener('click', (e)=>{ if(!wrap.contains(e.target)) wrap.classList.remove('open'); });
+}
+function filterAudienceMenu(q){
+  const qn = norm(q);
+  $$('#aud-list .row').forEach(row=>{
+    const label = row.querySelector('span').textContent || '';
+    const show = !q || norm(label).includes(qn);
+    row.style.display = show ? '' : 'none';
+  });
+}
+function updateAudienceCounter(){
+  const c = $('#aud-counter'); if(!c) return;
+  c.textContent = state.audience.size ? `(${state.audience.size})` : '';
+}
+
+/* ==== CARDS ==== */
+function card(r){
+  const tcls = r.type_simple==='Country Specifics' ? 'type-cs' : 'type-wi';
+  // Audience badges (first 3 + "+X")
+  const aud = r.audience || [];
+  const first = aud.slice(0,3).map(a=>`<span class="badge clickable" data-aud="${esc(a)}" title="Filter by ${esc(a)}">${highlight(a, state.qTokens)}</span>`).join(' ');
+  const extraCount = Math.max(0, aud.length - 3);
+  const extra = extraCount>0 ? ` <span class="badge more-badge" data-id="${esc(r.id)}">+${extraCount} more</span>` : '';
+  // Meta badges
+  const typeB = `<span class="badge ${tcls}">${esc(r.type_simple)}</span>`;
+  const l4g = r.l4_group ? badge(highlight(r.l4_group, state.qTokens)) : '';
+  const l4n = r.l4_name ? badge(highlight(r.l4_name, state.qTokens)) : '';
+  const proc = r.process ? badge(highlight(r.process, state.qTokens)) : '';
+  const subp = r.sub_process ? badge(highlight(r.sub_process, state.qTokens)) : '';
+
+  const titleHTML = highlight(r.title, state.qTokens);
+  const author = r.author ? `<span class="helper">Author: ${esc(r.author)}</span>` : '';
+  const artno  = r.article_number ? `<span class="helper">Article #: ${esc(r.article_number)}</span>` : '';
+  return `<div class="card" data-id="${esc(r.id)}">
+    <h3><a href="${esc(r.url)}" target="_blank" rel="noopener">${titleHTML}</a></h3>
+    <div class="meta">
+      ${typeB}
+      ${l4g}
+      ${l4n}
+      ${proc}
+      ${subp}
+    </div>
+    ${aud.length? `<div class="badges aud">${first}${extra}</div>` : ''}
+    <div class="meta">
+      ${author}
+      ${artno}
+    </div>
+  </div>`;
+}
+function attachCardInteractions(){
+  // Audience badge click -> toggle audience filter
+  $$('#results .badge.clickable').forEach(el=>{
+    el.addEventListener('click', ()=>{
+      const aud = el.getAttribute('data-aud');
+      if(!aud) return;
+      if(state.audience.has(aud)) state.audience.delete(aud); else state.audience.add(aud);
+      persistState();
+      render();
+    });
+  });
+  // "+X more" expander
+  $$('#results .more-badge').forEach(el=>{
+    el.addEventListener('click', ()=>{
+      const id = el.getAttribute('data-id');
+      const r = DATA.find(x=>x.id===id);
+      if(!r) return;
+      const parent = el.closest('.card');
+      const wrap = parent.querySelector('.badges.aud');
+      wrap.innerHTML = r.audience.map(a=>`<span class="badge clickable" data-aud="${esc(a)}" title="Filter by ${esc(a)}">${highlight(a, state.qTokens)}</span>`).join(' ');
+      attachCardInteractions(); // rebind on new badges
+    });
+  });
+}
+
+/* ==== GROUPED RENDER ==== */
+function renderResults(){
+  const res = applyFiltersAndSort();
+  const resultsEl = $('#results');
+  $('#count').style.display = 'block';
+  $('#count').textContent = `${res.length} item${res.length===1?'':'s'}`;
+
+  // If a specific group is selected, show flat grid; else group by l4_group
+  if(state.group){
+    resultsEl.innerHTML = `<div class="grid">${res.map(card).join('')}</div>`;
+  } else {
+    // group by l4_group
+    const byGroup = new Map();
+    res.forEach(r=>{
+      const key = r.l4_group || '(Uncategorized)';
+      if(!byGroup.has(key)) byGroup.set(key, []);
+      byGroup.get(key).push(r);
+    });
+    const sections = [];
+    [...byGroup.keys()].sort((a,b)=> a.localeCompare(b)).forEach(g=>{
+      const items = byGroup.get(g);
+      const section = `<section class="section">
+        <div class="section-title">${esc(g)} • ${items.length}</div>
+        <div class="grid">${items.map(card).join('')}</div>
+      </section>`;
+      sections.push(section);
+    });
+    resultsEl.innerHTML = sections.join('');
+  }
+  attachCardInteractions();
+}
+
+/* ==== CONTROLS ==== */
+function wireControls(){
+  // Search with debounce + tokens
+  $('#q').value = state.q;
+  $('#q').addEventListener('input', debounce((e)=>{
+    state.q = e.target.value.trim();
+    state.qTokens = tokenize(state.q);
+    persistState();
+    render();
+  }, 200));
+
+  // CS mode (3-state)
+  $('#csMode').value = state.csMode || 'all';
+  $('#csMode').addEventListener('change', (e)=>{
+    state.csMode = e.target.value;
+    persistState();
+    render();
+  });
+
+  // Audience multiselect interactions
+  wireAudienceControls();
+
+  // Clear filters
+  $('#clearAll').addEventListener('click', ()=>{
+    state.q = '';
+    state.qTokens = [];
+    state.group = '';
+    state.csMode = 'all';
+    state.audience.clear();
+    $('#q').value = '';
+    persistState();
+    render();
+  });
+}
+
+/* ==== STATE PERSISTENCE ==== */
+function persistState(){
+  writeHash(state);
+  saveLocal(state);
+  updateAudienceCounter();
+}
+
+/* ==== LOAD & INIT ==== */
+async function loadJSON(){
+  try{
+    const res = await fetch(JSON_PATH, {cache:'no-store'});
+    if(!res.ok) throw new Error(`HTTP ${res.status}`);
+    RAW = await res.json();
+    DATA = RAW.map(normalize);
+    // Precompute index for quick search checks
+    DATA.forEach(r => r._index = buildSearchIndex(r));
+    GROUPS = uniq(DATA.map(r=>r.l4_group).filter(Boolean)).sort((a,b)=>a.localeCompare(b));
+    AUDIENCE = uniq(DATA.flatMap(r=>r.audience).filter(Boolean)).sort((a,b)=>a.localeCompare(b));
+
+    $('#status').style.display='none';
+    $('#built').textContent = new Date().toISOString().slice(0,16).replace('T',' ') + ' UTC';
+
+    // Restore state from URL or localStorage
+    const fromHash = parseHash();
+    const fromLocal = loadLocal();
+    const init = { ...fromLocal, ...fromHash }; // URL overrides local
+    state.q = init.q || '';
+    state.qTokens = tokenize(state.q);
+    state.group = init.group || '';
+    state.csMode = init.csMode || 'all';
+    state.audience = init.audience || new Set();
+
+    // Wire UI
+    wireControls();
+    renderGroups();
+    updateAudienceCounter();
+    render();
+  }catch(err){
+    $('#status').innerHTML = `Couldn't load <code>${esc(JSON_PATH)}</code> (${esc(err.message)}).<br/>
+    Tip: host this HTML and JSON on SharePoint/Teams, or use a small local server when testing.`;
+  }
+}
+
+function render(){
+  renderGroups();
+  renderResults();
+}
+
+/* ==== BOOT ==== */
+initTheme();
+loadJSON();
+</script>
+</body>
+</html>
