@@ -1,292 +1,87 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>P&C Work Instructions – Navigator</title>
-<style>
-/* ---------- THEME TOKENS ---------- */
-/* Light (default) */
-:root{
-  --bg:#ffffff; --ink:#0f172a; --muted:#475569; --panel:#f8fafc; --border:#e2e8f0;
-  --accent:#0369a1; --accent-bg:#e0f2fe; --chip:#eef2f7; --chip-border:#d8dee9;
-  --wi:#1d4ed8; --cs:#b45309;
-}
-/* Dark */
-html[data-theme="dark"]{
-  --bg:#0b0f14; --ink:#e8eef5; --muted:#9bb0c9; --panel:#121821; --border:#202938;
-  --accent:#7dd3fc; --accent-bg:#0b1b24; --chip:#1c2431; --chip-border:#2a3444;
-  --wi:#93c5fd; --cs:#fbbf24;
-}
-
-*{box-sizing:border-box}
-html,body{height:100%}
-body{margin:0;font-family:Segoe UI,Inter,system-ui,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink)}
-.container{max-width:1100px;margin:auto;padding:20px}
-
-/* Header layout now has a top bar (brand + theme) and a separate controls row */
-header{display:flex;flex-direction:column;gap:10px;margin-bottom:8px}
-.topbar{display:flex;gap:12px;align-items:center;justify-content:space-between}
-.brand{display:flex;gap:10px;align-items:center}
-.brand h1{margin:0;font-size:20px}
-.brand small{color:var(--muted)}
-
-/* Theme button (not a filter) */
-.theme-btn{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:8px 12px;color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;gap:6px}
-.theme-btn:hover{box-shadow:0 4px 14px rgba(0,0,0,.08)}
-
-/* Filters row */
-.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.search{display:flex;gap:8px;align-items:center;background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:8px 12px}
-.search input{flex:1;background:transparent;border:0;outline:none;color:var(--ink);font-size:16px;min-width:220px}
-.select, .toggle, .btn{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:8px 10px;color:var(--ink)}
-.btn{cursor:pointer}
-
-/* Tag multiselect */
-.select{position:relative}
-.select>button{display:flex;align-items:center;gap:8px;background:transparent;border:0;color:var(--ink);cursor:pointer}
-.menu{position:absolute;z-index:5;top:110%;left:0;background:var(--bg);border:1px solid var(--border);border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,.08);padding:8px;min-width:260px;max-height:280px;overflow:auto;display:none}
-.select.open .menu{display:block}
-.menu .row{display:flex;gap:8px;align-items:center;padding:6px;border-radius:8px}
-.menu .row:hover{background:var(--panel)}
-.counter{color:var(--muted);font-size:12px}
-
-/* Cards */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px;margin-top:14px}
-.card{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:6px}
-.card h3{margin:0;font-size:16px}
-.card a{color:var(--accent);text-decoration:none}
-.meta{display:flex;gap:8px;flex-wrap:wrap}
-.badges{display:flex;flex-wrap:wrap;gap:6px}
-.badge{display:inline-flex;align-items:center;gap:6px;background:var(--chip);border:1px solid var(--chip-border);padding:2px 8px;border-radius:999px;font-size:12px;color:var(--muted)}
-.type-wi{color:var(--wi);border-color:#c7d2fe;background:color-mix(in oklab, var(--wi) 12%, transparent)}
-html[data-theme="dark"] .type-wi{border-color:#334155;background:rgba(125,211,252,.12)}
-.type-cs{color:var(--cs);border-color:#fcd34d;background:#fffbeb}
-html[data-theme="dark"] .type-cs{border-color:#3a2d11;background:rgba(250,204,21,.12)}
-
-/* Meta info */
-.count{color:var(--muted);margin-top:8px}
-.status{margin:14px 0;padding:10px;border:1px dashed var(--border);border-radius:10px;color:var(--muted)}
-footer{margin-top:18px;color:var(--muted);font-size:12px}
-
-/* Responsive */
-@media(max-width:640px){
-  .controls{justify-content:flex-start}
-}
-</style>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>P&C Work Instructions – Navigator</title>
+  <link rel="stylesheet" href="./styles.css"/>
 </head>
 <body>
   <div class="container">
     <header>
-      <!-- Top bar: brand (left) + theme toggle (right) -->
       <div class="topbar">
         <div class="brand">
           <div>
-            <h1>P&C Work Instructions</h1>
+            <h1>P&amp;C Work Instructions</h1>
             <small>BETA Version - Testing Only</small>
           </div>
         </div>
-
-        <!-- THEME TOGGLE (separate from filters) -->
         <button id="themeToggle" class="theme-btn" aria-pressed="false" title="Toggle theme">
           <span id="themeIcon" aria-hidden="true">🌙</span>
           <span id="themeLabel">Dark</span>
         </button>
       </div>
 
-      <!-- Filters row stays below -->
       <div class="controls" role="region" aria-label="Filters">
+        <!-- Search -->
         <div class="search">
-          <input id="q" type="search" placeholder="Search titles, processes, tags…" aria-label="Search"/>
+          <input id="q" type="search" placeholder="Search title, Level 4, process, audience, author, article #"
+                 aria-label="Search"/>
         </div>
-        <select id="group" class="select" aria-label="Filter by group"></select>
-        <label class="toggle"><input id="cs" type="checkbox"/> Country specifics only</label>
-        <div class="select" id="tags-select" aria-label="Filter by tags" role="combobox" aria-expanded="false">
-          <button type="button">Tags <span class="counter" id="tags-counter"></span></button>
-          <div class="menu" role="listbox"></div>
+
+        <!-- Type dropdown (3-state) -->
+        <select id="csMode" class="select" aria-label="Type filter">
+          <option value="all">All</option>
+          <option value="cs">Country Specifics</option>
+          <option value="wi">Work Instructions</option>
+        </select>
+
+        <!-- Audience multi-select -->
+        <div class="select" id="audience-select" aria-label="Filter by audience" role="combobox" aria-expanded="false">
+          <button type="button">Audience <span class="counter" id="aud-counter"></span></button>
+          <div class="menu" role="listbox">
+            <div class="hdr">
+              <input type="search" id="aud-search" placeholder="Search audience…" aria-label="Search audience"/>
+            </div>
+            <div id="aud-list"></div>
+            <div class="actions">
+              <button id="aud-clear">Clear</button>
+              <button id="aud-close">Close</button>
+            </div>
+          </div>
         </div>
+
+        <!-- Clear all filters -->
+        <button id="clearAll" class="btn clear-btn" title="Clear all filters">Clear filters</button>
       </div>
+
+      <!-- Active filter chips -->
+      <div id="active-filters" class="chips" aria-label="Active filters"></div>
     </header>
 
-    <div id="status" class="status">Loading data…</div>
-    <div class="count" id="count" style="display:none"></div>
-    <div id="results" class="grid" aria-live="polite"></div>
+    <div class="layout">
+      <!-- Sidebar for Level 4 Process -->
+      <aside class="sidebar" aria-label="Level 4 Process">
+        <h2>Level 4 Process</h2>
+        <div class="groups" id="groups"></div>
+      </aside>
 
-    <footer>Loads <code>WI_Export.json</code> from the same folder • <span id="built"></span></footer>
+      <!-- Main content -->
+      <main>
+        <div id="status" class="status">Loading data…</div>
+        <div class="count" id="count" style="display:none"></div>
+        <div id="results" aria-live="polite"></div>
+        <footer style="margin-top:18px;color:var(--muted);font-size:12px">
+          Loads <code>WI_Export.json</code> from the same folder • <span id="built"></span>
+        </footer>
+      </main>
+    </div>
   </div>
 
-<script>
-/* ==== CONFIG ==== */
-const JSON_PATH = 'WI_Export.json'; // same folder as this HTML
-const SALESFORCE_DOMAIN = 'https://mypmi.lightning.force.com'; // change if needed
-const THEME_KEY = 'pc_wi_theme'; // 'light' | 'dark' | (unset)
+  <!-- Screen reader announcements (for "Copied!") -->
+  <div id="sr-announce" aria-live="polite" class="visually-hidden"></div>
 
-/* ==== UTILITIES ==== */
-const $ = s => document.querySelector(s);
-const $$ = s => Array.from(document.querySelectorAll(s));
-const esc = s => (s+'').replace(/[&<>\"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-const decodeHTML = s => (s+'').replace(/&amp;/g,'&');
-const splitMulti = v => (v? (v+'').split(/;|,/).map(x=>decodeHTML(x.trim())).filter(Boolean) : []);
-
-/* ==== STATE ==== */
-let RAW = [];
-let DATA = [];
-let GROUPS = [];
-let TAGS = [];
-const state = { q:'', group:'', onlyCS:false, tags:new Set() };
-
-/* ==== THEME MANAGEMENT ==== */
-function applyTheme(theme){
-  const html = document.documentElement;
-  html.setAttribute('data-theme', theme);
-  const isDark = theme === 'dark';
-  $('#themeToggle').setAttribute('aria-pressed', String(isDark));
-  $('#themeIcon').textContent = isDark ? '☀️' : '🌙';
-  $('#themeLabel').textContent = isDark ? 'Light' : 'Dark';
-}
-function resolveInitialTheme(){
-  const saved = localStorage.getItem(THEME_KEY);
-  if(saved === 'light' || saved === 'dark') return saved;
-  return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-}
-function initTheme(){
-  applyTheme(resolveInitialTheme());
-  $('#themeToggle').addEventListener('click', ()=>{
-    const current = document.documentElement.getAttribute('data-theme') || 'light';
-    const next = current === 'light' ? 'dark' : 'light';
-    applyTheme(next);
-    localStorage.setItem(THEME_KEY, next);
-  });
-  if(!localStorage.getItem(THEME_KEY) && window.matchMedia){
-    const mq = window.matchMedia('(prefers-color-scheme: dark)');
-    mq.addEventListener('change', e=> applyTheme(e.matches ? 'dark' : 'light'));
-  }
-}
-
-/* ==== RENDERING ==== */
-function card(r){
-  const tcls = r.type_simple==='Country Specifics' ? 'type-cs' : 'type-wi';
-  const teams = r.teams.slice(0,3).map(t=>`<span class="badge">${esc(t)}</span>`).join(' ');
-  const tags  = r.tags.slice(0,5).map(t=>`<span class="badge">${esc(t)}</span>`).join(' ');
-  return `<div class="card">
-    <h3><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></h3>
-    <div class="meta">
-      <span class="badge ${tcls}">${esc(r.type_simple)}</span>
-      ${r.l4_group?`<span class="badge">${esc(r.l4_group)}</span>`:''}
-      ${r.process?`<span class="badge">${esc(r.process)}</span>`:''}
-      ${r.sub_process?`<span class="badge">${esc(r.sub_process)}</span>`:''}
-    </div>
-    ${teams?`<div class="badges">${teams}</div>`:''}
-    ${tags?`<div class="badges">${tags}</div>`:''}
-  </div>`;
-}
-function matchesTags(record){
-  if(state.tags.size===0) return true;
-  const recTags = new Set(record.tags);
-  for(const t of state.tags){ if(recTags.has(t)) return true; } // OR logic
-  return false;
-}
-function filterData(){
-  const q = state.q.toLowerCase();
-  return DATA.filter(r=>{
-    if(state.group && r.l4_group!==state.group) return false;
-    if(state.onlyCS && r.type_simple!=='Country Specifics') return false;
-    if(!matchesTags(r)) return false;
-    if(q){
-      const hay = `${r.title} ${r.l4_group} ${r.process} ${r.sub_process} ${r.tags.join(' ')} ${r.teams.join(' ')}`.toLowerCase();
-      if(!hay.includes(q)) return false;
-    }
-    return true;
-  });
-}
-function render(){
-  const res = filterData();
-  $('#count').style.display = 'block';
-  $('#count').textContent = `${res.length} item${res.length===1?'':'s'}`;
-  $('#results').innerHTML = res.map(card).join('');
-  const c = $('#tags-counter'); if(c) c.textContent = state.tags.size?`(${state.tags.size})`:'';
-}
-
-/* ==== CONTROLS ==== */
-function wireControls(){
-  $('#q').addEventListener('input', e=>{ state.q=e.target.value.trim(); render(); });
-  const groupSel = $('#group');
-  groupSel.innerHTML = `<option value="">All groups</option>` + GROUPS.map(g=>`<option value="${esc(g)}">${esc(g)}</option>`).join('');
-  groupSel.addEventListener('change', e=>{ state.group=e.target.value; render(); });
-  $('#cs').addEventListener('change', e=>{ state.onlyCS=e.target.checked; render(); });
-
-  // Tags multi-select
-  const tagWrap = $('#tags-select');
-  const btn = tagWrap.querySelector('button');
-  const menu = tagWrap.querySelector('.menu');
-  function buildTagMenu(){
-    menu.innerHTML='';
-    TAGS.forEach(tag=>{
-      const row = document.createElement('label');
-      row.className='row';
-      const checked = state.tags.has(tag) ? 'checked' : '';
-      row.innerHTML = `<input type="checkbox" value="${esc(tag)}" ${checked}/> <span>${esc(tag)}</span>`;
-      menu.appendChild(row);
-    });
-  }
-  btn.addEventListener('click', ()=> tagWrap.classList.toggle('open'));
-  menu.addEventListener('change', (e)=>{
-    const cb = e.target.closest('input[type=checkbox]');
-    if(!cb) return;
-    if(cb.checked) state.tags.add(cb.value); else state.tags.delete(cb.value);
-    render();
-  });
-  document.addEventListener('click', (e)=>{ if(!tagWrap.contains(e.target)) tagWrap.classList.remove('open'); });
-
-  buildTagMenu();
-}
-
-/* ==== DATA LOADING & NORMALIZATION ==== */
-function normalize(raw){
-  const id = raw.Id || '';
-  const title = (raw.Title || '').trim();
-  const l5 = (raw.ESD_L5_Type__c || '').trim();
-  const url = raw.URL ? raw.URL : `${SALESFORCE_DOMAIN}/lightning/r/Knowledge__kav/${id}/view`;
-  return {
-    id,
-    title,
-    url,
-    language: raw.Language || '',
-    article_number: raw.ArticleNumber || '',
-    l4_group: raw.L4_Processes_Group__c || '',
-    process: raw.Process__c || '',
-    sub_process: raw.Sub_Process__c || '',
-    tags: splitMulti(raw.ESD_Tag__c),
-    teams: splitMulti(raw.ESD_Target_Team__c),
-    type_simple: (/country specifics/i.test(l5) || /country specifics/i.test(title)) ? 'Country Specifics' : 'Work Instruction'
-  };
-}
-async function loadJSON(){
-  try{
-    const res = await fetch(JSON_PATH, {cache:'no-store'});
-    if(!res.ok) throw new Error(`HTTP ${res.status}`);
-    RAW = await res.json();
-    DATA = RAW.map(normalize)
-              .sort((a,b)=> (a.l4_group||'').localeCompare(b.l4_group||'') ||
-                             (a.process||'').localeCompare(b.process||'') ||
-                             (a.title||'').localeCompare(b.title||''));
-    GROUPS = [...new Set(DATA.map(r=>r.l4_group).filter(Boolean))].sort();
-    TAGS = [...new Set(DATA.flatMap(r=>r.tags).filter(Boolean))].sort();
-
-    $('#status').style.display='none';
-    $('#built').textContent = new Date().toISOString().slice(0,16).replace('T',' ') + ' UTC';
-
-    wireControls();
-    render();
-  }catch(err){
-    $('#status').innerHTML = `Couldn't load <code>${esc(JSON_PATH)}</code> (${esc(err.message)}).<br/>
-    Tip: host this HTML and JSON on SharePoint/Teams, or use a small local server when testing.`;
-  }
-}
-
-/* ==== BOOT ==== */
-initTheme();
-loadJSON();
-</script>
+  <!-- App entry point -->
+  <script type="module" src="./src/app.js"></script>
 </body>
 </html>
